@@ -38,6 +38,133 @@
             text-align: center;
             margin-bottom: 40px;
         }
+        .header-btn {
+            display: inline-block;
+            background: var(--domain-bg);
+            color: var(--domain-text);
+            font-size: 2.5rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 12px;
+            padding: 18px 36px;
+            cursor: pointer;
+            transition: background 0.2s, box-shadow 0.2s;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 8px rgba(30,41,59,0.08);
+        }
+        .header-btn:hover, .header-btn:focus {
+            background: #0f172a;
+            box-shadow: 0 4px 16px rgba(30,41,59,0.18);
+            outline: none;
+        }
+
+        /* Modal Styles */
+        .modal-backdrop {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(30,41,59,0.45);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .modal {
+            background: #18181b;
+            color: #f3f4f6;
+            border-radius: 18px;
+            max-width: 440px;
+            width: 95vw;
+            box-shadow: 0 8px 32px rgba(30,41,59,0.25);
+            padding: 0 0 18px 0;
+            position: relative;
+            animation: modalIn 0.18s cubic-bezier(.4,2,.6,1) both;
+            overflow: hidden;
+        }
+                .modal-tabs {
+                    display: flex;
+                    border-bottom: 1.5px solid #23272f;
+                    background: #23272f;
+                }
+                .modal-tab {
+                    flex: 1;
+                    padding: 18px 0 12px 0;
+                    text-align: center;
+                    font-size: 1.13rem;
+                    font-weight: 600;
+                    color: #a3a3a3;
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    transition: color 0.18s, background 0.18s;
+                }
+                .modal-tab.active {
+                    color: #60a5fa;
+                    background: #18181b;
+                    border-bottom: 2.5px solid #2563eb;
+                }
+                .modal-content {
+                    padding: 28px 28px 10px 28px;
+                }
+        @keyframes modalIn {
+            from { opacity: 0; transform: translateY(-30px) scale(0.98); }
+            to { opacity: 1; transform: none; }
+        }
+        .modal-close {
+            position: absolute;
+            top: 18px;
+            right: 18px;
+            background: none;
+            border: none;
+            color: #f3f4f6;
+            font-size: 1.5rem;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+        .modal-close:hover { opacity: 1; }
+        .modal h2 {
+            font-size: 1.18rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .modal .section {
+            margin-bottom: 22px;
+        }
+        .modal .about-links {
+            display: flex;
+            gap: 12px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+        .modal .about-link {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: #23272f;
+            color: #f3f4f6;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 16px;
+            font-size: 1rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+            box-shadow: 0 1px 4px rgba(30,41,59,0.08);
+        }
+        .modal .about-link:hover, .modal .about-link:focus {
+            background: #334155;
+            color: #60a5fa;
+            box-shadow: 0 2px 8px rgba(96,165,250,0.18);
+            outline: none;
+        }
+        .modal .about-link svg {
+            width: 1.2em;
+            height: 1.2em;
+            vertical-align: middle;
+        }
 
         h1 {
             color: var(--domain-bg);
@@ -270,10 +397,55 @@
 </head>
 <body>
 
+
     <div class="header-container">
-        <h1>Cyber Security eBook Library</h1>
+        <button class="header-btn" id="aboutBtn" title="Open Guide & About">Cyber Security eBook Library</button>
         <div class="search-box">
             <input type="text" id="searchInput" class="search-input" placeholder="Search by domain or book name...">
+        </div>
+    </div>
+
+    <!-- Modal Popup with Tabs -->
+    <div id="aboutModal" style="display:none;">
+        <div class="modal-backdrop" tabindex="-1">
+            <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+                <button class="modal-close" id="closeModalBtn" title="Close">&times;</button>
+                <div class="modal-tabs">
+                    <button class="modal-tab active" id="guideTab" type="button" tabindex="0">Guide</button>
+                    <button class="modal-tab" id="aboutTab" type="button" tabindex="0">About Maker</button>
+                </div>
+                <div class="modal-content" id="guideContent">
+                    <div class="section">
+                        <h2 id="modalTitle">📖 Guide</h2>
+                        <ul style="margin-left:18px; margin-bottom:0; color:#d1d5db; font-size:1.01rem;">
+                            <li>Browse or search for books by domain or title.</li>
+                            <li>Click a domain to expand and view its books.</li>
+                            <li>Click a book for details and download link.</li>
+                            <li>All resources are official or open-source.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-content" id="aboutContent" style="display:none;">
+                    <div class="section">
+                        <h2>👤 About Maker</h2>
+                        <div style="color:#d1d5db; margin-bottom:8px;">Built by Ashish Gupta.</div>
+                        <div class="about-links">
+                            <a class="about-link" href="https://bitcodeashishcloud.github.io/Ashish-Gupta/" target="_blank" rel="noopener">
+                                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 0 20"/></svg>
+                                Portfolio
+                            </a>
+                            <a class="about-link" href="https://github.com/bitcodeAShishcloud" target="_blank" rel="noopener">
+                                <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.38 9.38 0 0 1 12 6.84c.85.004 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg>
+                                GitHub
+                            </a>
+                            <a class="about-link" href="https://www.linkedin.com/in/ashish-gupta-037973259/" target="_blank" rel="noopener">
+                                <svg fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.28h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.88v1.36h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v5.59z"/></svg>
+                                LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -282,6 +454,48 @@
     </main>
 
     <script>
+                // Modal logic with tabs
+                const aboutBtn = document.getElementById('aboutBtn');
+                const aboutModal = document.getElementById('aboutModal');
+                const closeModalBtn = document.getElementById('closeModalBtn');
+                const guideTab = document.getElementById('guideTab');
+                const aboutTab = document.getElementById('aboutTab');
+                const guideContent = document.getElementById('guideContent');
+                const aboutContent = document.getElementById('aboutContent');
+
+                function openModal() {
+                    aboutModal.style.display = 'block';
+                    document.body.style.overflow = 'hidden';
+                    setTimeout(() => {
+                        aboutModal.querySelector('.modal').focus();
+                    }, 100);
+                }
+                function closeModal() {
+                    aboutModal.style.display = 'none';
+                    document.body.style.overflow = '';
+                }
+                aboutBtn.addEventListener('click', openModal);
+                closeModalBtn.addEventListener('click', closeModal);
+                aboutModal.addEventListener('click', (e) => {
+                    if (e.target.classList.contains('modal-backdrop')) closeModal();
+                });
+                document.addEventListener('keydown', (e) => {
+                    if (aboutModal.style.display === 'block' && (e.key === 'Escape' || e.key === 'Esc')) closeModal();
+                });
+
+                // Tab switching logic
+                guideTab.addEventListener('click', () => {
+                    guideTab.classList.add('active');
+                    aboutTab.classList.remove('active');
+                    guideContent.style.display = '';
+                    aboutContent.style.display = 'none';
+                });
+                aboutTab.addEventListener('click', () => {
+                    aboutTab.classList.add('active');
+                    guideTab.classList.remove('active');
+                    aboutContent.style.display = '';
+                    guideContent.style.display = 'none';
+                });
         // Global variable to store data for search filtering
         let libraryData = [];
         const container = document.getElementById('library-container');
