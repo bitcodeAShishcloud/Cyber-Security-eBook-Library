@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security eBook Library</title>
+    <style>
+        /* CSS Variables for consistent theming */
+        :root {
+            --primary-bg: #f3f4f6;
+            --container-bg: #ffffff;
+            --text-main: #1f2937;
+            --text-muted: #6b7280;
+            --accent-color: #2563eb;
+            --accent-hover: #1d4ed8;
+            --domain-bg: #1e293b;
+            --domain-text: #f8fafc;
+            --border-color: #e5e7eb;
+            --success: #10b981;
+            --success-hover: #059669;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            background-color: var(--primary-bg);
+            color: var(--text-main);
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .header-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: var(--domain-bg);
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        /* Search Bar Styles */
+        .search-box {
+            max-width: 600px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px 20px;
+            font-size: 1rem;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-color);
+        }
+
+        #library-container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* Domain Section (Outer Accordion) */
+        .domain-section {
+            background-color: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            margin-bottom: 24px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+            transition: box-shadow 0.2s;
+        }
+
+        .domain-section:hover {
+            box-shadow: 0 8px 24px rgba(37,99,235,0.10);
+        }
+
+        .domain-header {
+            background-color: var(--domain-bg);
+            color: var(--domain-text);
+            padding: 22px 32px;
+            font-size: 1.45rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.2s, box-shadow 0.2s;
+        }
+
+        .domain-header:hover {
+            background-color: #0f172a;
+        }
+
+        .domain-content {
+            display: none;
+            padding: 32px 32px 24px 32px;
+            background-color: #f8fafc;
+        }
+
+        .domain-section.active .domain-content {
+            display: block;
+        }
+
+        .arrow {
+            transition: transform 0.3s ease;
+            font-size: 0.8rem;
+        }
+
+        .domain-section.active .domain-header .arrow {
+            transform: rotate(180deg);
+        }
+
+        /* Book Card (Inner Accordion) */
+        .book-card {
+            background-color: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            margin-bottom: 18px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(37,99,235,0.04);
+            transition: box-shadow 0.2s;
+        }
+
+        .book-card:hover {
+            box-shadow: 0 6px 18px rgba(37,99,235,0.10);
+        }
+
+        .book-card:last-child {
+            margin-bottom: 0;
+        }
+
+        .book-summary {
+            padding: 20px 28px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .book-summary:hover {
+            background-color: #f1f5f9;
+        }
+
+        .book-title-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .book-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent-color);
+        }
+
+        .book-rating {
+            background-color: #fef08a;
+            color: #854d0e;
+            padding: 4px 14px;
+            border-radius: 16px;
+            font-size: 1rem;
+            font-weight: bold;
+            white-space: nowrap;
+            margin-left: 16px;
+        }
+
+        /* Short Description with Ellipsis */
+        .book-desc-short {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Full Book Details */
+        .book-details {
+            display: none;
+            padding: 28px 28px 10px 28px;
+            border-top: 1px solid var(--border-color);
+            background-color: #fff;
+        }
+
+        .book-card.active .book-details {
+            display: block;
+        }
+
+        .book-card.active .book-desc-short {
+            display: none; /* Hide short desc when full details are open */
+        }
+
+        .detail-item {
+            margin-bottom: 16px;
+            font-size: 1.05rem;
+        }
+
+        .detail-item strong {
+            color: #374151;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: var(--success);
+            color: white;
+            text-decoration: none;
+            padding: 12px 28px;
+            border-radius: 8px;
+            font-weight: 700;
+            margin-top: 18px;
+            font-size: 1.08rem;
+            transition: background-color 0.2s, box-shadow 0.2s;
+            box-shadow: 0 2px 8px rgba(16,185,129,0.08);
+        }
+
+        .download-btn:hover {
+            background-color: var(--success-hover);
+            box-shadow: 0 4px 16px rgba(16,185,129,0.18);
+        }
+
+        .download-btn:hover {
+            background-color: var(--success-hover);
+        }
+
+        /* Loading and Error states */
+        .status-message {
+            text-align: center;
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            padding: 60px 0;
+        }
+
+        .error-text {
+            color: #ef4444;
+        }
+        /* Responsive: No changes for mobile, only desktop/laptop improvements */
+        @media (max-width: 800px) {
+            #library-container {
+                max-width: 100%;
+            }
+            .domain-header, .domain-content, .book-summary, .book-details {
+                padding-left: 16px !important;
+                padding-right: 16px !important;
+            }
+            .book-title {
+                font-size: 1.05rem;
+            }
+            .book-rating {
+                font-size: 0.9rem;
+                padding: 2px 8px;
+            }
+            .download-btn {
+                font-size: 1rem;
+                padding: 10px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <h1>Cyber Security eBook Library</h1>
+        <div class="search-box">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search by domain or book name...">
+        </div>
+    </div>
+
+    <main id="library-container">
+        <div class="status-message">Data load ho raha hai...</div>
+    </main>
+
+    <script>
+        // Global variable to store data for search filtering
+        let libraryData = [];
+        const container = document.getElementById('library-container');
+        const searchInput = document.getElementById('searchInput');
+
+        // JSON file fetch karna
+        async function fetchBooks() {
+            try {
+                // Assumption: book.json is in the same directory
+                const response = await fetch('book.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                libraryData = await response.json();
+                renderLibrary(libraryData);
+            } catch (error) {
+                console.error("Fetching error: ", error);
+                container.innerHTML = `
+                    <div class="status-message error-text">
+                        <strong>Data load nahi ho paya!</strong><br>
+                        Kripya check karein ki 'book.json' same folder mein hai aur aap ise Web Server (jaise VS Code Live Server) par run kar rahe hain.<br>
+                        <small>Error details: ${error.message}</small>
+                    </div>`;
+            }
+        }
+
+        // Library ko UI par render karne ka function
+        function renderLibrary(dataToRender) {
+            container.innerHTML = ''; // Clear container
+
+            if (dataToRender.length === 0) {
+                container.innerHTML = `<div class="status-message">Koi book nahi mili.</div>`;
+                return;
+            }
+
+            // Loop through each domain
+            dataToRender.forEach((domainItem) => {
+                // 1. Create Domain Wrapper
+                const domainSection = document.createElement('div');
+                domainSection.className = 'domain-section';
+
+                // 2. Create Domain Header
+                const domainHeader = document.createElement('div');
+                domainHeader.className = 'domain-header';
+                domainHeader.innerHTML = `
+                    <span>📁 ${domainItem.domain}</span>
+                    <span class="arrow">▼</span>
+                `;
+
+                // 3. Create Domain Content Area
+                const domainContent = document.createElement('div');
+                domainContent.className = 'domain-content';
+
+                // 4. Loop through books in this domain
+                domainItem.books.forEach((book) => {
+                    const bookCard = document.createElement('div');
+                    bookCard.className = 'book-card';
+
+                    // Book Summary (Visible initially inside domain)
+                    const bookSummary = document.createElement('div');
+                    bookSummary.className = 'book-summary';
+                    bookSummary.innerHTML = `
+                        <div class="book-title-row">
+                            <div class="book-title">📘 ${book.book_name}</div>
+                            <div class="book-rating">★ ${book.ratings}</div>
+                        </div>
+                        <div class="book-desc-short">${book.description}</div>
+                    `;
+
+                    // Full Book Details (Hidden initially)
+                    const bookDetails = document.createElement('div');
+                    bookDetails.className = 'book-details';
+                    bookDetails.innerHTML = `
+                        <div class="detail-item"><strong>Description:</strong> ${book.description}</div>
+                        <div class="detail-item"><strong>Author:</strong> ${book.author_name}</div>
+                        <div class="detail-item"><strong>Publication Year:</strong> ${book.publication_year}</div>
+                        <a href="${book.download_link}" target="_blank" class="download-btn">⬇️ Download PDF</a>
+                    `;
+
+                    // Event Listener for Book Accordion
+                    bookSummary.addEventListener('click', (e) => {
+                        e.stopPropagation(); // Prevent domain toggle if clicked
+                        bookCard.classList.toggle('active');
+                    });
+
+                    bookCard.appendChild(bookSummary);
+                    bookCard.appendChild(bookDetails);
+                    domainContent.appendChild(bookCard);
+                });
+
+                // Event Listener for Domain Accordion
+                domainHeader.addEventListener('click', () => {
+                    // Close other domains for cleaner UI (Optional, currently behaves independently)
+                    domainSection.classList.toggle('active');
+                });
+
+                domainSection.appendChild(domainHeader);
+                domainSection.appendChild(domainContent);
+                container.appendChild(domainSection);
+            });
+        }
+
+        // Search Functionality
+        searchInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            
+            if (searchTerm === '') {
+                renderLibrary(libraryData);
+                return;
+            }
+
+            // Filter logic
+            const filteredData = libraryData.map(domain => {
+                // Check if domain matches
+                const domainMatches = domain.domain.toLowerCase().includes(searchTerm);
+                
+                // Filter books that match
+                const filteredBooks = domain.books.filter(book => 
+                    book.book_name.toLowerCase().includes(searchTerm) || 
+                    book.author_name.toLowerCase().includes(searchTerm) ||
+                    book.description.toLowerCase().includes(searchTerm)
+                );
+
+                // If domain matches, return all books, else return only matching books
+                if (domainMatches || filteredBooks.length > 0) {
+                    return {
+                        ...domain,
+                        books: domainMatches ? domain.books : filteredBooks
+                    };
+                }
+                return null;
+            }).filter(item => item !== null); // Remove empty domains
+
+            renderLibrary(filteredData);
+            
+            // Automatically expand domains during search for better UX
+            if (searchTerm !== '') {
+                document.querySelectorAll('.domain-section').forEach(el => el.classList.add('active'));
+            }
+        });
+
+        // App Initialize
+        fetchBooks();
+    </script>
+</body>
+</html>

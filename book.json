@@ -1,0 +1,3215 @@
+[
+  {
+    "domain": "Network Security",
+    "books": [
+      {
+        "book_name": "Security Engineering: A Guide to Building Dependable Distributed Systems",
+        "description": "Comprehensive guide on building secure systems, network protocols, and cryptography.",
+        "author_name": "Ross Anderson",
+        "publication_year": 2020,
+        "download_link": "https://www.cl.cam.ac.uk/~rja14/book.html",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "NIST SP 800-53: Security and Privacy Controls",
+        "description": "The golden standard catalog of security and privacy controls for information systems.",
+        "author_name": "NIST",
+        "publication_year": 2020,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Application Security",
+    "books": [
+      {
+        "book_name": "OWASP Application Security Verification Standard (ASVS)",
+        "description": "Provides a basis for testing web application technical security controls.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2021,
+        "download_link": "https://owasp.org/www-project-application-security-verification-standard/",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "NIST SP 800-218: Secure Software Development Framework (SSDF)",
+        "description": "Core set of high-level secure software development practices.",
+        "author_name": "NIST",
+        "publication_year": 2022,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-218/final",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Web Security",
+    "books": [
+      {
+        "book_name": "OWASP Web Security Testing Guide (WSTG)",
+        "description": "The premier cybersecurity testing resource for web application developers and security professionals.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2022,
+        "download_link": "https://owasp.org/www-project-web-security-testing-guide/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "High Performance Browser Networking",
+        "description": "Performance, architecture, and security of modern web protocols.",
+        "author_name": "Ilya Grigorik",
+        "publication_year": 2013,
+        "download_link": "https://hpbn.co/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Mobile Security",
+    "books": [
+      {
+        "book_name": "OWASP Mobile Security Testing Guide (MSTG)",
+        "description": "Comprehensive manual for mobile app security testing and reverse engineering.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2023,
+        "download_link": "https://owasp.org/www-project-mobile-security-testing-guide/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "NIST SP 800-163 Revision 1: Vetting the Security of Mobile Applications",
+        "description": "Guidelines for vetting the security of mobile applications.",
+        "author_name": "NIST",
+        "publication_year": 2019,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-163/rev-1/final",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Cloud Security",
+    "books": [
+      {
+        "book_name": "Security Guidance for Critical Areas of Focus in Cloud Computing",
+        "description": "Industry-standard best practices for securing cloud computing environments.",
+        "author_name": "Cloud Security Alliance (CSA)",
+        "publication_year": 2021,
+        "download_link": "https://cloudsecurityalliance.org/research/guidance/",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "AWS Security Incident Response Guide",
+        "description": "Fundamentals of responding to security incidents within AWS cloud environments.",
+        "author_name": "Amazon Web Services",
+        "publication_year": 2023,
+        "download_link": "https://docs.aws.amazon.com/whitepapers/latest/aws-security-incident-response-guide/welcome.html",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Endpoint Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-114 Rev. 1: User's Guide to Telework and Bring Your Own Device (BYOD) Security",
+        "description": "Guidance on securing endpoint devices used for remote access.",
+        "author_name": "NIST",
+        "publication_year": 2016,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-114/rev-1/final",
+        "ratings": 4.5
+      },
+      {
+        "book_name": "CIS Controls Version 8",
+        "description": "Prioritized set of safeguards to mitigate the most prevalent cyber-attacks against endpoints and networks.",
+        "author_name": "Center for Internet Security (CIS)",
+        "publication_year": 2021,
+        "download_link": "https://www.cisecurity.org/controls/v8/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "IoT Security",
+    "books": [
+      {
+        "book_name": "NIST IR 8228: Considerations for Managing Internet of Things (IoT) Cybersecurity",
+        "description": "Baseline framework for mitigating risks associated with IoT devices.",
+        "author_name": "NIST",
+        "publication_year": 2019,
+        "download_link": "https://csrc.nist.gov/publications/detail/nistir/8228/final",
+        "ratings": 4.6
+      },
+      {
+        "book_name": "OWASP Internet of Things Top 10",
+        "description": "The top 10 vulnerabilities and risks associated with IoT architectures.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2018,
+        "download_link": "https://owasp.org/www-project-internet-of-things/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "OT Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-82 Rev. 3: Guide to Operational Technology (OT) Security",
+        "description": "Definitive guide on securing OT systems while addressing their unique performance and reliability requirements.",
+        "author_name": "NIST",
+        "publication_year": 2023,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-82/rev-3/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "CISA Operational Technology Security",
+        "description": "Best practices for defending OT infrastructure from cyber threats.",
+        "author_name": "Cybersecurity and Infrastructure Security Agency (CISA)",
+        "publication_year": 2022,
+        "download_link": "https://www.cisa.gov/topics/industrial-control-systems",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "ICS Security",
+    "books": [
+      {
+        "book_name": "CISA ICS Recommended Practices",
+        "description": "A collection of architectural and operational recommended practices for Industrial Control Systems.",
+        "author_name": "CISA",
+        "publication_year": 2023,
+        "download_link": "https://www.cisa.gov/uscert/ics/Recommended-Practices",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "ENISA Good Practices for Security of IoT/ICS",
+        "description": "European Union guidelines for securing industrial automation and control systems.",
+        "author_name": "European Union Agency for Cybersecurity (ENISA)",
+        "publication_year": 2018,
+        "download_link": "https://www.enisa.europa.eu/publications/good-practices-for-security-of-iot",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Embedded Systems Security",
+    "books": [
+      {
+        "book_name": "NIST IR 8259: Foundational Cybersecurity Activities for IoT Device Manufacturers",
+        "description": "Core cybersecurity baseline guidelines for embedded systems and device manufacturers.",
+        "author_name": "NIST",
+        "publication_year": 2020,
+        "download_link": "https://csrc.nist.gov/publications/detail/nistir/8259/final",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Hardware Security: A Hands-on Learning Approach (Open Materials)",
+        "description": "Academic resources covering physical security vulnerabilities in embedded hardware.",
+        "author_name": "Swarup Bhunia",
+        "publication_year": 2018,
+        "download_link": "https://www.hardwaresecurity.org/",
+        "ratings": 4.5
+      }
+    ]
+  },
+  {
+    "domain": "Wireless Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-153: Guidelines for Securing Wireless Local Area Networks (WLANs)",
+        "description": "Recommendations for securing wireless networks and configuring WLAN clients.",
+        "author_name": "NIST",
+        "publication_year": 2012,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-153/final",
+        "ratings": 4.5
+      },
+      {
+        "book_name": "NIST SP 800-97: Establishing Wireless Robust Security Networks",
+        "description": "Guide to IEEE 802.11i standard and securely configuring wireless networks.",
+        "author_name": "NIST",
+        "publication_year": 2007,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-97/final",
+        "ratings": 4.4
+      }
+    ]
+  },
+  {
+    "domain": "5G Security",
+    "books": [
+      {
+        "book_name": "CISA 5G Security Evaluation Process",
+        "description": "Framework and methodologies for assessing the security of 5G deployments.",
+        "author_name": "CISA",
+        "publication_year": 2023,
+        "download_link": "https://www.cisa.gov/resources-tools/resources/5g-security-evaluation-process-investigation",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "ENISA Threat Landscape for 5G Networks",
+        "description": "Comprehensive threat intelligence and risk assessment for 5G architectures.",
+        "author_name": "ENISA",
+        "publication_year": 2020,
+        "download_link": "https://www.enisa.europa.eu/publications/enisa-threat-landscape-for-5g-networks",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Zero Trust Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-207: Zero Trust Architecture",
+        "description": "The foundational blueprint and deployment models for Zero Trust.",
+        "author_name": "NIST",
+        "publication_year": 2020,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-207/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "CISA Zero Trust Maturity Model",
+        "description": "Roadmap for agencies and enterprises transitioning to a zero trust architecture.",
+        "author_name": "CISA",
+        "publication_year": 2023,
+        "download_link": "https://www.cisa.gov/zero-trust-maturity-model",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Identity and Access Management (IAM)",
+    "books": [
+      {
+        "book_name": "NIST SP 800-63-3: Digital Identity Guidelines",
+        "description": "Global standard for identity proofing, enrollment, and authentication.",
+        "author_name": "NIST",
+        "publication_year": 2017,
+        "download_link": "https://pages.nist.gov/800-63-3/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "OAuth 2.0 Simplified",
+        "description": "Free, easy-to-understand guide on implementing OAuth 2.0 for IAM.",
+        "author_name": "Aaron Parecki",
+        "publication_year": 2018,
+        "download_link": "https://aaronparecki.com/oauth-2-simplified/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Privileged Access Management (PAM)",
+    "books": [
+      {
+        "book_name": "NIST SP 1800-18: Privileged Account Management",
+        "description": "Practical guide on securing privileged accounts to prevent lateral movement.",
+        "author_name": "NIST / NCCoE",
+        "publication_year": 2019,
+        "download_link": "https://www.nccoe.nist.gov/projects/use-cases/privileged-account-management",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "NIST IR 7966: Security of Interactive and Automated Access Management Using Secure Shell (SSH)",
+        "description": "Guidelines for securing SSH access and managing privileged keys.",
+        "author_name": "NIST",
+        "publication_year": 2015,
+        "download_link": "https://csrc.nist.gov/publications/detail/nistir/7966/final",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Authentication Systems Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-63B: Authentication and Lifecycle Management",
+        "description": "Technical requirements for multi-factor authentication and token lifecycles.",
+        "author_name": "NIST",
+        "publication_year": 2017,
+        "download_link": "https://pages.nist.gov/800-63-3/sp800-63b.html",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "FIDO Alliance Authentication Best Practices",
+        "description": "Specifications and whitepapers for passwordless and biometric authentication.",
+        "author_name": "FIDO Alliance",
+        "publication_year": 2022,
+        "download_link": "https://fidoalliance.org/specifications/download/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Authorization Systems Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-162: Guide to Attribute Based Access Control (ABAC)",
+        "description": "Definition and considerations for implementing ABAC authorization models.",
+        "author_name": "NIST",
+        "publication_year": 2014,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-162/final",
+        "ratings": 4.6
+      },
+      {
+        "book_name": "OWASP Authorization Cheat Sheet",
+        "description": "Quick reference guide for developers to build secure authorization checks.",
+        "author_name": "OWASP",
+        "publication_year": 2023,
+        "download_link": "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Biometric Security",
+    "books": [
+      {
+        "book_name": "ENISA Security and Privacy of Biometrics",
+        "description": "In-depth analysis of biometric authentication risks and mitigations.",
+        "author_name": "ENISA",
+        "publication_year": 2021,
+        "download_link": "https://www.enisa.europa.eu/publications/security-and-privacy-of-biometrics",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "NIST SP 800-76-2: Biometric Specifications for Personal Identity Verification",
+        "description": "Technical specifications for acquiring and processing biometric data securely.",
+        "author_name": "NIST",
+        "publication_year": 2013,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-76/rev-2/final",
+        "ratings": 4.5
+      }
+    ]
+  },
+  {
+    "domain": "Cryptography",
+    "books": [
+      {
+        "book_name": "Handbook of Applied Cryptography",
+        "description": "Definitive mathematical reference for cryptographic algorithms and protocols.",
+        "author_name": "Alfred J. Menezes",
+        "publication_year": 1996,
+        "download_link": "https://cacr.uwaterloo.ca/hac/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Crypto 101",
+        "description": "Introductory open-source course on cryptography for programmers.",
+        "author_name": "Laurens Van Houtven",
+        "publication_year": 2017,
+        "download_link": "https://www.crypto101.io/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Encryption Systems",
+    "books": [
+      {
+        "book_name": "NIST SP 800-52 Rev. 2: Guidelines for TLS",
+        "description": "Selection, configuration, and use of Transport Layer Security (TLS) for securing data in transit.",
+        "author_name": "NIST",
+        "publication_year": 2019,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-52/rev-2/final",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "NIST SP 800-111: Guide to Storage Encryption Technologies",
+        "description": "Frameworks for encrypting data at rest on end-user devices.",
+        "author_name": "NIST",
+        "publication_year": 2007,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-111/final",
+        "ratings": 4.4
+      }
+    ]
+  },
+  {
+    "domain": "Key Management",
+    "books": [
+      {
+        "book_name": "NIST SP 800-57 Part 1 Rev. 5: Recommendation for Key Management",
+        "description": "General guidance and best practices for the management of cryptographic keying material.",
+        "author_name": "NIST",
+        "publication_year": 2020,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-5/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "OWASP Cryptographic Storage Cheat Sheet",
+        "description": "Architectural guidelines for securely managing cryptographic keys within applications.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2023,
+        "download_link": "https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Public Key Infrastructure (PKI)",
+    "books": [
+      {
+        "book_name": "NIST SP 800-32: Introduction to Public Key Technology and the Federal PKI",
+        "description": "Foundational concepts for digital signatures, certificates, and PKI architectures.",
+        "author_name": "NIST",
+        "publication_year": 2001,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-32/final",
+        "ratings": 4.5
+      },
+      {
+        "book_name": "CISA PKI Security Guidance",
+        "description": "Modern guidelines for securing and operating a robust Public Key Infrastructure.",
+        "author_name": "CISA",
+        "publication_year": 2021,
+        "download_link": "https://www.cisa.gov/resources-tools/resources/public-key-infrastructure-pki",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Digital Forensics",
+    "books": [
+      {
+        "book_name": "NIST SP 800-86: Guide to Integrating Forensic Techniques into Incident Response",
+        "description": "Detailed methodologies for conducting digital forensics during a cyber incident.",
+        "author_name": "NIST",
+        "publication_year": 2006,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-86/final",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Digital Forensics Framework (DFF) Documentation",
+        "description": "Open-source guide covering the collection and preservation of digital evidence.",
+        "author_name": "DFF Open Source Community",
+        "publication_year": 2018,
+        "download_link": "https://github.com/arxsys/dff",
+        "ratings": 4.4
+      }
+    ]
+  },
+  {
+    "domain": "Computer Forensics",
+    "books": [
+      {
+        "book_name": "The Sleuth Kit (TSK) and Autopsy User's Guide",
+        "description": "Official documentation for the premier open-source computer forensics platform.",
+        "author_name": "Brian Carrier",
+        "publication_year": 2022,
+        "download_link": "http://sleuthkit.org/autopsy/docs/user-docs/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "SANS Digital Forensics Whitepapers",
+        "description": "A collection of peer-reviewed practical case studies on host-based investigations.",
+        "author_name": "SANS Institute",
+        "publication_year": 2023,
+        "download_link": "https://www.sans.org/white-papers/?focus-area=digital-forensics",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Network Forensics",
+    "books": [
+      {
+        "book_name": "Wireshark User's Guide",
+        "description": "The definitive manual for network protocol analysis and packet capture forensics.",
+        "author_name": "Wireshark Foundation",
+        "publication_year": 2023,
+        "download_link": "https://www.wireshark.org/docs/wsug_html_chunked/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Zeek User Manual",
+        "description": "Guide to deploying and analyzing network traffic using the Zeek network monitoring framework.",
+        "author_name": "Zeek Project",
+        "publication_year": 2023,
+        "download_link": "https://docs.zeek.org/en/master/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Mobile Forensics",
+    "books": [
+      {
+        "book_name": "NIST SP 800-101 Rev. 1: Guidelines on Mobile Device Forensics",
+        "description": "In-depth procedures for the preservation, acquisition, and examination of mobile devices.",
+        "author_name": "NIST",
+        "publication_year": 2014,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-101/rev-1/final",
+        "ratings": 4.6
+      },
+      {
+        "book_name": "OWASP Mobile Application Security Verification Standard (MASVS)",
+        "description": "Provides forensic analysts insight into where mobile application data is stored and secured.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2022,
+        "download_link": "https://owasp.org/www-project-mobile-app-security/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Memory Forensics",
+    "books": [
+      {
+        "book_name": "The Volatility Framework Command Reference",
+        "description": "The official documentation for the most widely used advanced memory forensics framework.",
+        "author_name": "Volatility Foundation",
+        "publication_year": 2021,
+        "download_link": "https://github.com/volatilityfoundation/volatility/wiki",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Memory Forensics Cheat Sheet",
+        "description": "Quick-reference guide for analyzing Windows, Linux, and Mac memory dumps.",
+        "author_name": "SANS Institute",
+        "publication_year": 2022,
+        "download_link": "https://www.sans.org/posters/memory-forensics-cheat-sheet/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Malware Analysis",
+    "books": [
+      {
+        "book_name": "Malware Analysis Basics",
+        "description": "A foundational guide for understanding static and dynamic analysis of malicious files.",
+        "author_name": "CISA",
+        "publication_year": 2020,
+        "download_link": "https://www.cisa.gov/sites/default/files/publications/Malware_Analysis_Basics.pdf",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Cuckoo Sandbox Documentation",
+        "description": "Manual for setting up automated dynamic malware analysis systems.",
+        "author_name": "Cuckoo Foundation",
+        "publication_year": 2019,
+        "download_link": "https://cuckoo.readthedocs.io/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Reverse Engineering",
+    "books": [
+      {
+        "book_name": "Reverse Engineering for Beginners",
+        "description": "Comprehensive, globally recognized free textbook on x86/x64/ARM assembly and reverse engineering.",
+        "author_name": "Dennis Yurichev",
+        "publication_year": 2022,
+        "download_link": "https://beginners.re/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Ghidra Software Reverse Engineering Framework User Guide",
+        "description": "Official NSA documentation for the open-source Ghidra decompiler suite.",
+        "author_name": "National Security Agency (NSA)",
+        "publication_year": 2023,
+        "download_link": "https://ghidra-sre.org/CheatSheet.html",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Threat Intelligence",
+    "books": [
+      {
+        "book_name": "Threat Intelligence Driven Defense",
+        "description": "A practical guide to implementing the MITRE ATT&CK framework for operational intelligence.",
+        "author_name": "MITRE Corporation",
+        "publication_year": 2021,
+        "download_link": "https://attack.mitre.org/docs/Threat_Intelligence_Driven_Defense.pdf",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "ENISA Threat Landscape Report",
+        "description": "Annual deep-dive into the top global cyber threats, actors, and mitigation strategies.",
+        "author_name": "ENISA",
+        "publication_year": 2023,
+        "download_link": "https://www.enisa.europa.eu/publications/enisa-threat-landscape-2023",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Cyber Threat Intelligence (CTI)",
+    "books": [
+      {
+        "book_name": "SANS CTI Whitepapers",
+        "description": "Collection of authoritative guides on implementing and maturing CTI programs.",
+        "author_name": "SANS Institute",
+        "publication_year": 2022,
+        "download_link": "https://www.sans.org/white-papers/?focus-area=cyber-threat-intelligence",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "ENISA Threat Intelligence Methodologies",
+        "description": "European Union guidelines on exploring and establishing CTI sharing methodologies.",
+        "author_name": "ENISA",
+        "publication_year": 2020,
+        "download_link": "https://www.enisa.europa.eu/publications/enisa-threat-intelligence-methodologies",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Threat Hunting",
+    "books": [
+      {
+        "book_name": "Hunt Evil: Your Practical Guide to Threat Hunting",
+        "description": "Comprehensive open guide to proactive threat hunting frameworks and techniques.",
+        "author_name": "Sqrrl",
+        "publication_year": 2017,
+        "download_link": "https://www.threathunting.net/files/hunt-evil-practical-guide-threat-hunting.pdf",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Threat Hunting with Elastic",
+        "description": "Practical implementations of hunting methodologies using open-source log platforms.",
+        "author_name": "Elastic",
+        "publication_year": 2021,
+        "download_link": "https://www.elastic.co/pdf/threat-hunting-with-elastic.pdf",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Incident Response",
+    "books": [
+      {
+        "book_name": "NIST SP 800-61 Rev. 2: Computer Security Incident Handling Guide",
+        "description": "The golden standard framework for establishing an incident response capability.",
+        "author_name": "NIST",
+        "publication_year": 2012,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Incident Response Methodologies",
+        "description": "Step-by-step technical methodologies for responding to various cyber attacks.",
+        "author_name": "CERT / CISA",
+        "publication_year": 2020,
+        "download_link": "https://www.cisa.gov/resources-tools/services/incident-response",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Security Operations Center (SOC)",
+    "books": [
+      {
+        "book_name": "11 Strategies of a World-Class Cybersecurity Operations Center",
+        "description": "Essential reading for SOC setup, engineering, automation, and management.",
+        "author_name": "MITRE Corporation",
+        "publication_year": 2022,
+        "download_link": "https://www.mitre.org/news-insights/publication/11-strategies-world-class-cybersecurity-operations-center",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "NIST SP 800-137: Information Security Continuous Monitoring",
+        "description": "Guideline for continuous monitoring and visibility in SOC environments.",
+        "author_name": "NIST",
+        "publication_year": 2011,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-137/final",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "SOC L1",
+    "books": [
+      {
+        "book_name": "Microsoft Sentinel Analyst Guide",
+        "description": "Core documentation for Tier 1 analysts handling initial triage and alert validation.",
+        "author_name": "Microsoft",
+        "publication_year": 2023,
+        "download_link": "https://learn.microsoft.com/en-us/azure/sentinel/",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "OSSEC Log Analysis Manual",
+        "description": "Open-source HIDS documentation critical for L1 log analysis and alert comprehension.",
+        "author_name": "OSSEC Foundation",
+        "publication_year": 2021,
+        "download_link": "https://www.ossec.net/docs/",
+        "ratings": 4.5
+      }
+    ]
+  },
+  {
+    "domain": "SOC L2",
+    "books": [
+      {
+        "book_name": "Investigating Windows Systems for Indicators of Compromise",
+        "description": "Deep-dive techniques for Tier 2 analysts performing in-depth system investigations.",
+        "author_name": "SANS Institute",
+        "publication_year": 2019,
+        "download_link": "https://www.sans.org/white-papers/33754/",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Advanced Zeek Scripting",
+        "description": "Guide to building custom network parsers for complex Tier 2 protocol analysis.",
+        "author_name": "Zeek Project",
+        "publication_year": 2022,
+        "download_link": "https://docs.zeek.org/en/master/script-reference/index.html",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "SOC L3",
+    "books": [
+      {
+        "book_name": "Advanced Memory Forensics Techniques",
+        "description": "Complex artifact extraction using Volatility for Tier 3 incident escalation.",
+        "author_name": "Volatility Foundation",
+        "publication_year": 2021,
+        "download_link": "https://github.com/volatilityfoundation/volatility/wiki",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Adversary Emulation with CALDERA",
+        "description": "Guide for L3 analysts on recreating advanced persistent threat (APT) behavior.",
+        "author_name": "MITRE Corporation",
+        "publication_year": 2023,
+        "download_link": "https://caldera.readthedocs.io/en/latest/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Vulnerability Assessment",
+    "books": [
+      {
+        "book_name": "NIST SP 800-115: Technical Guide to Information Security Testing",
+        "description": "Standardized methodology for conducting vulnerability assessments and reporting.",
+        "author_name": "NIST",
+        "publication_year": 2008,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-115/final",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "OpenVAS User Compendium",
+        "description": "Complete manual for configuring and executing scans with the leading open-source VA tool.",
+        "author_name": "Greenbone Networks",
+        "publication_year": 2022,
+        "download_link": "https://docs.greenbone.net/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Penetration Testing",
+    "books": [
+      {
+        "book_name": "Penetration Testing Execution Standard (PTES)",
+        "description": "The most widely adopted technical guidelines and phases for conducting pentests.",
+        "author_name": "PTES Team",
+        "publication_year": 2014,
+        "download_link": "http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Kali Linux Revealed",
+        "description": "Official training material detailing the architecture and tooling of Kali Linux.",
+        "author_name": "Offensive Security",
+        "publication_year": 2017,
+        "download_link": "https://www.kali.org/docs/introduction/download-official-kali-linux-book/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Red Teaming",
+    "books": [
+      {
+        "book_name": "Red Team Infrastructure Wiki",
+        "description": "Open-source, highly practical guide for designing and deploying covert operational infrastructure.",
+        "author_name": "Bluscreenofjeff",
+        "publication_year": 2021,
+        "download_link": "https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "MITRE ATT&CK Design and Philosophy",
+        "description": "Core reading for structuring Red Team engagements against known adversary TTPs.",
+        "author_name": "MITRE",
+        "publication_year": 2020,
+        "download_link": "https://attack.mitre.org/docs/ATTACK_Design_and_Philosophy_March_2020.pdf",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Blue Teaming",
+    "books": [
+      {
+        "book_name": "MITRE D3FEND: A Knowledge Graph of Cybersecurity Countermeasures",
+        "description": "The definitive framework for designing, deploying, and evaluating defensive cybersecurity architectures.",
+        "author_name": "MITRE Corporation",
+        "publication_year": 2021,
+        "download_link": "https://d3fend.mitre.org/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "CISA Blue Team Defense Guidance",
+        "description": "Actionable technical strategies for network defenders to secure critical infrastructure.",
+        "author_name": "CISA",
+        "publication_year": 2022,
+        "download_link": "https://www.cisa.gov/resources-tools/services/blue-teaming",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Purple Teaming",
+    "books": [
+      {
+        "book_name": "Purple Team Exercise Framework (PTEF)",
+        "description": "Comprehensive open-source guide for executing threat-led Purple Team exercises.",
+        "author_name": "SCYTHE / Defensive Origins",
+        "publication_year": 2020,
+        "download_link": "https://github.com/scythe-io/purple-team-exercise-framework",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Operationalizing MITRE ATT&CK for Purple Teaming",
+        "description": "Methodologies for bridging the gap between offensive testing and defensive posture.",
+        "author_name": "MITRE",
+        "publication_year": 2021,
+        "download_link": "https://attack.mitre.org/docs/ATTACK_for_Purple_Teams.pdf",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Exploit Development",
+    "books": [
+      {
+        "book_name": "Corelan Team Exploit Writing Tutorials",
+        "description": "The legendary, globally recognized free tutorial series on Windows exploit development.",
+        "author_name": "Peter Van Eeckhoutte (corelanc0d3r)",
+        "publication_year": 2019,
+        "download_link": "https://www.corelan.be/index.php/articles/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Phrack Magazine Archives",
+        "description": "The longest-running hacker zine, containing decades of advanced exploit techniques and concepts.",
+        "author_name": "Phrack Staff",
+        "publication_year": 2023,
+        "download_link": "http://phrack.org/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Bug Bounty Hunting",
+    "books": [
+      {
+        "book_name": "Bugcrowd University Reference Material",
+        "description": "Free, open-source training modules and slide decks for modern bug bounty hunting.",
+        "author_name": "Bugcrowd",
+        "publication_year": 2023,
+        "download_link": "https://www.bugcrowd.com/hackers/bugcrowd-university/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Web Hacking 101 (Free HackerOne Edition)",
+        "description": "Practical guide to finding and exploiting vulnerabilities in web applications.",
+        "author_name": "Peter Yaworski",
+        "publication_year": 2018,
+        "download_link": "https://www.hackerone.com/resources/web-hacking-101",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Secure Code Review",
+    "books": [
+      {
+        "book_name": "OWASP Code Review Guide",
+        "description": "The industry standard manual for identifying security flaws within application source code.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2017,
+        "download_link": "https://owasp.org/www-project-code-review-guide/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "SEI CERT Coding Standards",
+        "description": "Rules and recommendations for developing secure code in C, C++, and Java.",
+        "author_name": "Software Engineering Institute (SEI)",
+        "publication_year": 2021,
+        "download_link": "https://wiki.sei.cmu.edu/confluence/display/seccode",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Secure Software Development (SSDLC)",
+    "books": [
+      {
+        "book_name": "NIST SP 800-218: Secure Software Development Framework (SSDF)",
+        "description": "High-level secure software development practices to integrate into the SDLC.",
+        "author_name": "NIST",
+        "publication_year": 2022,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-218/final",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "OWASP Software Assurance Maturity Model (SAMM)",
+        "description": "A prescriptive model to formulate and implement a strategy for software security.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2021,
+        "download_link": "https://owaspsamm.org/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "DevSecOps",
+    "books": [
+      {
+        "book_name": "DoD Enterprise DevSecOps Reference Design",
+        "description": "Military-grade framework for securely automating software delivery and infrastructure.",
+        "author_name": "US Department of Defense",
+        "publication_year": 2021,
+        "download_link": "https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v2.0_Public%20Release.pdf",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "GitLab DevSecOps Methodology",
+        "description": "Practical methodologies for integrating security seamlessly into CI/CD pipelines.",
+        "author_name": "GitLab",
+        "publication_year": 2022,
+        "download_link": "https://about.gitlab.com/topics/devsecops/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Static Application Security Testing (SAST)",
+    "books": [
+      {
+        "book_name": "OWASP Source Code Analysis Tools Guide",
+        "description": "Guidelines on selecting, implementing, and utilizing SAST tools effectively.",
+        "author_name": "OWASP",
+        "publication_year": 2020,
+        "download_link": "https://owasp.org/www-community/Source_Code_Analysis_Tools",
+        "ratings": 4.5
+      },
+      {
+        "book_name": "SonarQube Clean Code and Security Documentation",
+        "description": "In-depth guide on analyzing static code for security vulnerabilities and technical debt.",
+        "author_name": "SonarSource",
+        "publication_year": 2023,
+        "download_link": "https://docs.sonarsource.com/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Dynamic Application Security Testing (DAST)",
+    "books": [
+      {
+        "book_name": "OWASP ZAP User Guide",
+        "description": "The complete manual for the world's most widely used open-source DAST scanner.",
+        "author_name": "OWASP ZAP Team",
+        "publication_year": 2023,
+        "download_link": "https://www.zaproxy.org/docs/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "NIST IR 8151: Dramatically Reducing Software Vulnerabilities",
+        "description": "Report detailing approaches to dynamic testing and execution-based analysis.",
+        "author_name": "NIST",
+        "publication_year": 2016,
+        "download_link": "https://csrc.nist.gov/publications/detail/nistir/8151/final",
+        "ratings": 4.4
+      }
+    ]
+  },
+  {
+    "domain": "Interactive Application Security Testing (IAST)",
+    "books": [
+      {
+        "book_name": "OWASP IAST Overview and Implementation Guidelines",
+        "description": "Conceptual framework for instrumenting applications to detect vulnerabilities at runtime.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2021,
+        "download_link": "https://owasp.org/www-community/Interactive_Application_Security_Testing",
+        "ratings": 4.6
+      },
+      {
+        "book_name": "Contrast Security IAST Whitepapers",
+        "description": "Industry-leading architectural concepts for continuous interactive testing.",
+        "author_name": "Contrast Security",
+        "publication_year": 2022,
+        "download_link": "https://www.contrastsecurity.com/resources/whitepapers",
+        "ratings": 4.5
+      }
+    ]
+  },
+  {
+    "domain": "Software Composition Analysis (SCA)",
+    "books": [
+      {
+        "book_name": "OWASP Software Component Verification Standard (SCVS)",
+        "description": "Framework for identifying and reducing risk in the software supply chain and third-party components.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2020,
+        "download_link": "https://owasp.org/www-project-software-component-verification-standard/",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "NTIA Framing Software Component Transparency",
+        "description": "The foundational government guide on establishing Software Bill of Materials (SBOM).",
+        "author_name": "National Telecommunications and Information Administration (NTIA)",
+        "publication_year": 2021,
+        "download_link": "https://www.ntia.gov/files/ntia/publications/framingsbom_20211021.pdf",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "API Security",
+    "books": [
+      {
+        "book_name": "OWASP API Security Top 10",
+        "description": "The industry standard document detailing the most critical vulnerabilities in API endpoints.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2023,
+        "download_link": "https://owasp.org/API-Security/editions/2023/en/0x11-t10/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "REST Security Cheat Sheet",
+        "description": "Actionable checklist for developers to secure RESTful web services.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2022,
+        "download_link": "https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Container Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-190: Application Container Security Guide",
+        "description": "Comprehensive guidelines outlining the security risks of container technologies and mitigation strategies.",
+        "author_name": "NIST",
+        "publication_year": 2017,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-190/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "CIS Docker Benchmark",
+        "description": "Prescriptive guidance for establishing a secure configuration posture for Docker containers.",
+        "author_name": "Center for Internet Security (CIS)",
+        "publication_year": 2023,
+        "download_link": "https://www.cisecurity.org/benchmark/docker",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Kubernetes Security",
+    "books": [
+      {
+        "book_name": "Kubernetes Hardening Guidance",
+        "description": "Critical mitigation strategies from defense agencies to secure Kubernetes clusters.",
+        "author_name": "NSA & CISA",
+        "publication_year": 2022,
+        "download_link": "https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/2716980/nsa-cisa-release-kubernetes-security-guidance/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "CIS Kubernetes Benchmark",
+        "description": "The gold standard configuration baseline for securing Kubernetes nodes and control planes.",
+        "author_name": "Center for Internet Security (CIS)",
+        "publication_year": 2023,
+        "download_link": "https://www.cisecurity.org/benchmark/kubernetes",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Serverless Security",
+    "books": [
+      {
+        "book_name": "OWASP Serverless Top 10",
+        "description": "Identification of the most common security flaws in serverless architectures (e.g., AWS Lambda).",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2020,
+        "download_link": "https://owasp.org/www-project-serverless-top-10/",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Defending Serverless Infrastructure",
+        "description": "Cloud Security Alliance whitepaper on serverless computing risks and compliance.",
+        "author_name": "Cloud Security Alliance (CSA)",
+        "publication_year": 2019,
+        "download_link": "https://cloudsecurityalliance.org/research/artifacts/serverless-security-best-practices/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Database Security",
+    "books": [
+      {
+        "book_name": "OWASP Database Security Cheat Sheet",
+        "description": "Guidelines for hardening SQL and NoSQL databases against injection and unauthorized access.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2022,
+        "download_link": "https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Database Security Technical Implementation Guide (STIG)",
+        "description": "Military-grade hardening configurations for various database management systems.",
+        "author_name": "Defense Information Systems Agency (DISA)",
+        "publication_year": 2023,
+        "download_link": "https://public.cyber.mil/stigs/downloads/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Data Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-111: Guide to Storage Encryption Technologies",
+        "description": "Foundational text on encrypting data at rest across various storage devices.",
+        "author_name": "NIST",
+        "publication_year": 2007,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-111/final",
+        "ratings": 4.5
+      },
+      {
+        "book_name": "CISA Zero Trust Data Pillar Guidance",
+        "description": "Modern strategies for securing data within a Zero Trust architecture.",
+        "author_name": "CISA",
+        "publication_year": 2023,
+        "download_link": "https://www.cisa.gov/zero-trust-maturity-model",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Data Privacy",
+    "books": [
+      {
+        "book_name": "NIST Privacy Framework",
+        "description": "A tool for improving privacy through enterprise risk management.",
+        "author_name": "NIST",
+        "publication_year": 2020,
+        "download_link": "https://www.nist.gov/privacy-framework",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "GDPR Official Legal Text",
+        "description": "The complete, unabridged text of the General Data Protection Regulation.",
+        "author_name": "European Union",
+        "publication_year": 2016,
+        "download_link": "https://gdpr-info.eu/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Data Loss Prevention (DLP)",
+    "books": [
+      {
+        "book_name": "NIST SP 1800-28: Data Confidentiality",
+        "description": "Practical guidance on identifying, protecting, and detecting data exfiltration.",
+        "author_name": "NIST / NCCoE",
+        "publication_year": 2022,
+        "download_link": "https://www.nccoe.nist.gov/projects/building-blocks/data-security/data-confidentiality",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Defeating Data Loss",
+        "description": "SANS whitepaper detailing strategic approaches to implementing DLP solutions.",
+        "author_name": "SANS Institute",
+        "publication_year": 2018,
+        "download_link": "https://www.sans.org/white-papers/38315/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Backup Security",
+    "books": [
+      {
+        "book_name": "CISA Ransomware Guide (Backup Strategies)",
+        "description": "Critical guidance on securing backups from ransomware encryption and deletion.",
+        "author_name": "CISA / MS-ISAC",
+        "publication_year": 2023,
+        "download_link": "https://www.cisa.gov/stopransomware/ransomware-guide",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "NIST SP 800-34 Rev. 1: Contingency Planning Guide",
+        "description": "Step-by-step instructions for establishing backup, recovery, and continuity plans.",
+        "author_name": "NIST",
+        "publication_year": 2010,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-34/rev-1/final",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Disaster Recovery Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-34 Rev. 1: Contingency Planning Guide for Federal Information Systems",
+        "description": "Comprehensive instructions for developing, executing, and maintaining IT disaster recovery plans.",
+        "author_name": "NIST",
+        "publication_year": 2010,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-34/rev-1/final",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "IT Disaster Recovery Planning Handbook",
+        "description": "Actionable templates and frameworks for rapidly recovering critical IT infrastructure.",
+        "author_name": "CISA",
+        "publication_year": 2021,
+        "download_link": "https://www.ready.gov/it-disaster-recovery-plan",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Business Continuity Security",
+    "books": [
+      {
+        "book_name": "Business Continuity Planning Booklet",
+        "description": "The Federal Financial Institutions Examination Council's guide to maintaining business operations during disruptions.",
+        "author_name": "FFIEC",
+        "publication_year": 2015,
+        "download_link": "https://ithandbook.ffiec.gov/it-booklets/business-continuity-management.aspx",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Ready.gov Business Continuity Plan Suite",
+        "description": "Government-provided methodologies for ensuring organizational resilience against physical and cyber threats.",
+        "author_name": "FEMA",
+        "publication_year": 2022,
+        "download_link": "https://www.ready.gov/business-continuity-plan",
+        "ratings": 4.5
+      }
+    ]
+  },
+  {
+    "domain": "Risk Management",
+    "books": [
+      {
+        "book_name": "NIST SP 800-39: Managing Information Security Risk",
+        "description": "The foundational framework for managing risk at the organizational, mission, and information system levels.",
+        "author_name": "NIST",
+        "publication_year": 2011,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-39/final",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Open FAIR Risk Analysis Standard",
+        "description": "A quantitative model for understanding, analyzing, and measuring information risk.",
+        "author_name": "The Open Group",
+        "publication_year": 2013,
+        "download_link": "https://publications.opengroup.org/c13g",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Cyber Risk Assessment",
+    "books": [
+      {
+        "book_name": "NIST SP 800-30 Rev. 1: Guide for Conducting Risk Assessments",
+        "description": "Detailed methodologies for assessing cyber risks and identifying vulnerabilities and threat sources.",
+        "author_name": "NIST",
+        "publication_year": 2012,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "OCTAVE Allegro: Improving the Information Security Risk Assessment Process",
+        "description": "A robust methodology for streamlining and optimizing cyber risk assessments.",
+        "author_name": "SEI CERT",
+        "publication_year": 2007,
+        "download_link": "https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=8419",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Third-Party Risk Management",
+    "books": [
+      {
+        "book_name": "NIST SP 800-161 Rev. 1: Cybersecurity Supply Chain Risk Management Practices",
+        "description": "Strategic guidance for identifying and mitigating risks associated with third-party vendors and systems.",
+        "author_name": "NIST",
+        "publication_year": 2022,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-161/rev-1/final",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Third-Party Relationships: Risk Management Guidance",
+        "description": "Financial industry standards for assessing the security posture of external service providers.",
+        "author_name": "Office of the Comptroller of the Currency (OCC)",
+        "publication_year": 2013,
+        "download_link": "https://www.occ.gov/news-issuances/bulletins/2013/bulletin-2013-29.html",
+        "ratings": 4.5
+      }
+    ]
+  },
+  {
+    "domain": "Vendor Risk Management",
+    "books": [
+      {
+        "book_name": "Guidelines on Securing the Supply Chain",
+        "description": "Comprehensive strategies for vetting vendors and establishing secure procurement lifecycles.",
+        "author_name": "ENISA",
+        "publication_year": 2020,
+        "download_link": "https://www.enisa.europa.eu/publications/guidelines-on-securing-the-iot-supply-chain",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Vendor Risk Management Lifecycle",
+        "description": "Actionable whitepaper on executing continuous vendor security audits and scoring.",
+        "author_name": "SANS Institute",
+        "publication_year": 2019,
+        "download_link": "https://www.sans.org/white-papers/39005/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Governance, Risk, and Compliance (GRC)",
+    "books": [
+      {
+        "book_name": "COBIT 2019 Framework: Introduction and Methodology",
+        "description": "The globally accepted framework for the governance and management of enterprise IT.",
+        "author_name": "ISACA",
+        "publication_year": 2018,
+        "download_link": "https://www.isaca.org/resources/cobit",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "OCEG GRC Capability Model (Red Book)",
+        "description": "A blueprint for unifying governance, risk management, and compliance programs.",
+        "author_name": "OCEG",
+        "publication_year": 2021,
+        "download_link": "https://www.oceg.org/resources/red-book/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Security Auditing",
+    "books": [
+      {
+        "book_name": "NIST SP 800-53A Rev. 5: Assessing Security and Privacy Controls",
+        "description": "The ultimate playbook for building assessment plans and auditing security controls.",
+        "author_name": "NIST",
+        "publication_year": 2022,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-53a/rev-5/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "ITAF: A Professional Practices Framework for IT Audit",
+        "description": "Standards and guidelines for conducting comprehensive IT and security audits.",
+        "author_name": "ISACA",
+        "publication_year": 2020,
+        "download_link": "https://www.isaca.org/resources/it-audit/itaf",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Security Compliance",
+    "books": [
+      {
+        "book_name": "CISA Cyber Essentials",
+        "description": "A guide for leaders of small organizations to implement fundamental security compliance baselines.",
+        "author_name": "CISA",
+        "publication_year": 2021,
+        "download_link": "https://www.cisa.gov/cyber-essentials",
+        "ratings": 4.6
+      },
+      {
+        "book_name": "CIS Controls v8 and Regulatory Compliance Mapping",
+        "description": "Documentation mapping critical security controls against major global compliance frameworks.",
+        "author_name": "Center for Internet Security (CIS)",
+        "publication_year": 2022,
+        "download_link": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "ISO 27001 Security",
+    "books": [
+      {
+        "book_name": "ISO 27001:2022 Implementation Guide",
+        "description": "A practical, step-by-step breakdown for implementing an Information Security Management System (ISMS).",
+        "author_name": "IT Governance",
+        "publication_year": 2022,
+        "download_link": "https://www.itgovernance.co.uk/iso27001",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Open ISMS Toolkit",
+        "description": "Open-source repository containing documentation templates for achieving ISO 27001 compliance.",
+        "author_name": "Open ISMS Community",
+        "publication_year": 2023,
+        "download_link": "https://github.com/ustayready/ISMS",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "PCI-DSS Security",
+    "books": [
+      {
+        "book_name": "PCI DSS v4.0 Standard Document",
+        "description": "The official standard detailing requirements and testing procedures for securing payment card data.",
+        "author_name": "PCI Security Standards Council",
+        "publication_year": 2022,
+        "download_link": "https://www.pcisecuritystandards.org/document_library/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Navigating PCI DSS: Understanding the Intent",
+        "description": "A companion guide to help organizations understand the intent and implementation of PCI requirements.",
+        "author_name": "PCI SSC",
+        "publication_year": 2022,
+        "download_link": "https://www.pcisecuritystandards.org/document_library/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "HIPAA Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-66 Rev. 2: Implementing the HIPAA Security Rule",
+        "description": "Detailed resource guide for healthcare organizations to implement the HIPAA Security Rule.",
+        "author_name": "NIST",
+        "publication_year": 2024,
+        "download_link": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "HIPAA Security Risk Assessment (SRA) Tool Guide",
+        "description": "Documentation for the HHS SRA tool designed to help providers conduct security risk assessments.",
+        "author_name": "Office of the National Coordinator for Health IT (ONC)",
+        "publication_year": 2023,
+        "download_link": "https://www.healthit.gov/topic/privacy-security-and-hipaa/security-risk-assessment-tool",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "GDPR Compliance",
+    "books": [
+      {
+        "book_name": "Data Protection Engineering",
+        "description": "Guidelines on how to integrate data protection principles into the engineering lifecycle.",
+        "author_name": "ENISA",
+        "publication_year": 2022,
+        "download_link": "https://www.enisa.europa.eu/publications/data-protection-engineering",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "EDPB Guidelines on Data Protection by Design and by Default",
+        "description": "Official European Data Protection Board guidelines on implementing GDPR Article 25.",
+        "author_name": "EDPB",
+        "publication_year": 2020,
+        "download_link": "https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-42019-article-25-data-protection-design-and_en",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "NIST Framework Security",
+    "books": [
+      {
+        "book_name": "NIST Cybersecurity Framework (CSF) 2.0",
+        "description": "The updated gold standard framework for understanding, managing, and expressing cybersecurity risk.",
+        "author_name": "NIST",
+        "publication_year": 2024,
+        "download_link": "https://www.nist.gov/cyberframework",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "NIST SP 800-37 Rev. 2: Risk Management Framework (RMF)",
+        "description": "A systemic approach to security and privacy across the system development life cycle.",
+        "author_name": "NIST",
+        "publication_year": 2018,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Security Architecture",
+    "books": [
+      {
+        "book_name": "AWS Well-Architected Framework: Security Pillar",
+        "description": "Design principles and best practices for securing modern cloud architectures.",
+        "author_name": "Amazon Web Services",
+        "publication_year": 2024,
+        "download_link": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Microsoft Cybersecurity Reference Architectures (MCRA)",
+        "description": "Visual guides and documentation detailing how Microsoft's security capabilities integrate.",
+        "author_name": "Microsoft",
+        "publication_year": 2023,
+        "download_link": "https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Enterprise Security Architecture",
+    "books": [
+      {
+        "book_name": "TOGAF Series Guide: Information Security Architecture",
+        "description": "Guidance on integrating security and risk management into enterprise architecture.",
+        "author_name": "The Open Group",
+        "publication_year": 2018,
+        "download_link": "https://publications.opengroup.org/g192",
+        "ratings": 4.6
+      },
+      {
+        "book_name": "SABSA Whitepapers and Institute Guidelines",
+        "description": "Open resources explaining the Sherwood Applied Business Security Architecture methodology.",
+        "author_name": "SABSA Institute",
+        "publication_year": 2021,
+        "download_link": "https://sabsa.org/sabsa-white-papers/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Security Engineering",
+    "books": [
+      {
+        "book_name": "NIST SP 800-160 Vol. 1 Rev. 1: Engineering Trustworthy Secure Systems",
+        "description": "Systems security engineering considerations for a multidisciplinary approach.",
+        "author_name": "NIST",
+        "publication_year": 2022,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-160/vol-1-rev-1/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Building Secure and Reliable Systems",
+        "description": "Google's free O'Reilly book on best practices for designing and maintaining secure systems.",
+        "author_name": "Heather Adkins, Betsy Beyer, et al. (Google)",
+        "publication_year": 2020,
+        "download_link": "https://sre.google/books/building-secure-and-reliable-systems/",
+        "ratings": 4.9
+      }
+    ]
+  },
+  {
+    "domain": "Security Design",
+    "books": [
+      {
+        "book_name": "Avoiding the Top 10 Software Security Design Flaws",
+        "description": "IEEE Center for Secure Design guide focusing on design-level flaws rather than implementation bugs.",
+        "author_name": "IEEE Computer Society",
+        "publication_year": 2014,
+        "download_link": "https://cybersecurity.ieee.org/center-for-secure-design/",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "CISA Secure by Design Principles",
+        "description": "Guidelines urging software manufacturers to build products securely from the design phase.",
+        "author_name": "CISA",
+        "publication_year": 2023,
+        "download_link": "https://www.cisa.gov/securebydesign",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Secure System Design",
+    "books": [
+      {
+        "book_name": "NIST SP 800-207: Zero Trust Architecture",
+        "description": "Architectural definitions and deployment models for zero trust secure system design.",
+        "author_name": "NIST",
+        "publication_year": 2020,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-207/final",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "MITRE Systems Engineering Guide",
+        "description": "Comprehensive guide on systems engineering principles, including security and resilience design.",
+        "author_name": "MITRE Corporation",
+        "publication_year": 2014,
+        "download_link": "https://www.mitre.org/sites/default/files/publications/se-guide-book-interactive.pdf",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Security Testing",
+    "books": [
+      {
+        "book_name": "OSSTMM (Open Source Security Testing Methodology Manual)",
+        "description": "A peer-reviewed methodology for performing comprehensive security tests and metrics.",
+        "author_name": "ISECOM",
+        "publication_year": 2010,
+        "download_link": "https://www.isecom.org/OSSTMM.3.pdf",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "OWASP Web Security Testing Guide (WSTG)",
+        "description": "The premier cybersecurity testing resource for web applications and APIs.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2022,
+        "download_link": "https://owasp.org/www-project-web-security-testing-guide/",
+        "ratings": 4.9
+      }
+    ]
+  },
+  {
+    "domain": "Security Validation",
+    "books": [
+      {
+        "book_name": "MITRE ATT&CK Evaluations Methodology",
+        "description": "Comprehensive guide on validating security product efficacy using adversary emulation.",
+        "author_name": "MITRE Engenuity",
+        "publication_year": 2022,
+        "download_link": "https://attackevals.mitre-engenuity.org/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Continuous Security Validation Framework",
+        "description": "Whitepapers on moving from point-in-time pentesting to continuous breach and attack simulation (BAS).",
+        "author_name": "SANS Institute",
+        "publication_year": 2021,
+        "download_link": "https://www.sans.org/white-papers/40065/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Security Monitoring",
+    "books": [
+      {
+        "book_name": "CISA Continuous Diagnostics and Mitigation (CDM)",
+        "description": "Federal guidelines for dynamically monitoring networks and fortifying security postures.",
+        "author_name": "CISA",
+        "publication_year": 2023,
+        "download_link": "https://www.cisa.gov/cdm",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Applied Network Security Monitoring",
+        "description": "Open-source methodologies for collection, detection, and analysis of network telemetry.",
+        "author_name": "Chris Sanders",
+        "publication_year": 2014,
+        "download_link": "https://chrissanders.org/ansm/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "SIEM (Security Information and Event Management)",
+    "books": [
+      {
+        "book_name": "Elastic Security Guide",
+        "description": "Free, comprehensive documentation for deploying and utilizing the Elastic SIEM.",
+        "author_name": "Elastic",
+        "publication_year": 2023,
+        "download_link": "https://www.elastic.co/guide/en/security/current/index.html",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Splunk Security Essentials Guide",
+        "description": "Actionable use cases and deployment guides for enterprise SIEM architecture.",
+        "author_name": "Splunk",
+        "publication_year": 2022,
+        "download_link": "https://docs.splunk.com/Documentation/SSE",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "SOAR (Security Orchestration Automation and Response)",
+    "books": [
+      {
+        "book_name": "Automating the SOC: SOAR Playbooks",
+        "description": "Open-source repository of incident response playbooks and automation scripts.",
+        "author_name": "Swimlane / Open Source Community",
+        "publication_year": 2022,
+        "download_link": "https://swimlane.com/resources/whitepapers/",
+        "ratings": 4.6
+      },
+      {
+        "book_name": "Demisto (Cortex XSOAR) Architecture Guide",
+        "description": "Technical documentation on integrating threat intelligence with automated response actions.",
+        "author_name": "Palo Alto Networks",
+        "publication_year": 2021,
+        "download_link": "https://docs.paloaltonetworks.com/cortex/cortex-xsoar",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Log Management",
+    "books": [
+      {
+        "book_name": "NIST SP 800-92: Guide to Computer Security Log Management",
+        "description": "The definitive federal standard for generating, transmitting, storing, and analyzing security logs.",
+        "author_name": "NIST",
+        "publication_year": 2006,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-92/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "OWASP Logging Cheat Sheet",
+        "description": "Guidelines for developers on what security events to log and how to log them securely.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2023,
+        "download_link": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Security Analytics",
+    "books": [
+      {
+        "book_name": "Data-Driven Security Concepts",
+        "description": "Analytical models and data science techniques applied directly to cybersecurity datasets.",
+        "author_name": "Cyentia Institute",
+        "publication_year": 2020,
+        "download_link": "https://www.cyentia.com/research/",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "SANS Security Analytics Whitepapers",
+        "description": "Methodologies for turning massive volumes of log data into actionable security intelligence.",
+        "author_name": "SANS Institute",
+        "publication_year": 2021,
+        "download_link": "https://www.sans.org/white-papers/39460/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Behavioral Analytics (UEBA)",
+    "books": [
+      {
+        "book_name": "Understanding UEBA: User and Entity Behavior Analytics",
+        "description": "Foundational concepts for utilizing machine learning to detect insider threats and compromised accounts.",
+        "author_name": "Exabeam",
+        "publication_year": 2019,
+        "download_link": "https://www.exabeam.com/library/ueba-guide/",
+        "ratings": 4.5
+      },
+      {
+        "book_name": "Insider Threat Detection with UEBA",
+        "description": "Technical frameworks for baselining normal network behavior and alerting on anomalies.",
+        "author_name": "SANS Institute",
+        "publication_year": 2020,
+        "download_link": "https://www.sans.org/white-papers/38555/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Fraud Detection Security",
+    "books": [
+      {
+        "book_name": "OWASP Automated Threat Handbook",
+        "description": "Profiles of automated threats (bots) targeting web applications and strategies to mitigate fraud.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2018,
+        "download_link": "https://owasp.org/www-project-automated-threats-to-web-applications/",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Report to the Nations on Occupational Fraud",
+        "description": "The definitive global study on the costs and mechanisms of corporate and cyber fraud.",
+        "author_name": "Association of Certified Fraud Examiners (ACFE)",
+        "publication_year": 2022,
+        "download_link": "https://www.acfe.com/report-to-the-nations/2022/",
+        "ratings": 4.9
+      }
+    ]
+  },
+  {
+    "domain": "Anti-Phishing Security",
+    "books": [
+      {
+        "book_name": "CISA Phishing Guidance: Stopping the Attack Cycle",
+        "description": "Best practices for organizations to defend against spear-phishing and credential harvesting.",
+        "author_name": "CISA",
+        "publication_year": 2023,
+        "download_link": "https://www.cisa.gov/stop-phishing",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "The Phish Scale: NIST Categorization",
+        "description": "Methodology for rating the difficulty of phishing emails to improve awareness training metrics.",
+        "author_name": "NIST",
+        "publication_year": 2020,
+        "download_link": "https://www.nist.gov/news-events/news/2020/09/phish-scale-nist-developed-method-helps-it-staff-see-why-users-click",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Email Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-177 Rev. 1: Trustworthy Email",
+        "description": "Technical deployment guide for SPF, DKIM, and DMARC to prevent email spoofing.",
+        "author_name": "NIST",
+        "publication_year": 2019,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-177/rev-1/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Securing Microsoft Exchange Server",
+        "description": "Critical defense guidelines for hardening on-premise and cloud-based enterprise email systems.",
+        "author_name": "CISA",
+        "publication_year": 2021,
+        "download_link": "https://www.cisa.gov/resources-tools/services/securing-microsoft-exchange",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Browser Security",
+    "books": [
+      {
+        "book_name": "Browser Security Handbook",
+        "description": "The definitive, comprehensive technical guide to the security features and flaws of modern web browsers.",
+        "author_name": "Michal Zalewski (Google)",
+        "publication_year": 2008,
+        "download_link": "https://code.google.com/archive/p/browsersec/wikis/Main.wiki",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "CISA Securing Web Browsers",
+        "description": "Actionable guidance and configuration standards for defending enterprise web browsers against exploitation.",
+        "author_name": "CISA",
+        "publication_year": 2020,
+        "download_link": "https://www.cisa.gov/uscert/ncas/tips/ST05-001",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "DNS Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-81-2: Secure Domain Name System (DNS) Deployment Guide",
+        "description": "Technical guidelines for deploying DNS securely, including the implementation of DNSSEC.",
+        "author_name": "NIST",
+        "publication_year": 2013,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-81/2/final",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "ICANN DNSSEC Deployment Guide",
+        "description": "Comprehensive resource for understanding and deploying cryptographic authentication for DNS.",
+        "author_name": "ICANN",
+        "publication_year": 2021,
+        "download_link": "https://www.icann.org/resources/pages/dnssec-qaa-2014-01-29-en",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Firewall Management",
+    "books": [
+      {
+        "book_name": "NIST SP 800-41 Rev. 1: Guidelines on Firewalls and Firewall Policy",
+        "description": "The foundational standard for firewall architecture, policy creation, and rule administration.",
+        "author_name": "NIST",
+        "publication_year": 2009,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-41/rev-1/final",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "PCI DSS Information Supplement: Firewall Configuration",
+        "description": "Best practices for managing firewall rulesets to maintain compliance and segment secure networks.",
+        "author_name": "PCI Security Standards Council",
+        "publication_year": 2021,
+        "download_link": "https://www.pcisecuritystandards.org/document_library/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "IDS (Intrusion Detection Systems)",
+    "books": [
+      {
+        "book_name": "NIST SP 800-94: Guide to Intrusion Detection and Prevention Systems",
+        "description": "Core concepts, architectures, and management practices for network and host-based IDS.",
+        "author_name": "NIST",
+        "publication_year": 2007,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-94/final",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Snort 3 User Manual",
+        "description": "The official, comprehensive guide for configuring and writing rules for the world's leading open-source IDS.",
+        "author_name": "Cisco / Snort Community",
+        "publication_year": 2023,
+        "download_link": "https://docs.snort.org/",
+        "ratings": 4.9
+      }
+    ]
+  },
+  {
+    "domain": "IPS (Intrusion Prevention Systems)",
+    "books": [
+      {
+        "book_name": "Suricata User Guide",
+        "description": "Complete documentation for the high-performance network IDS, IPS, and network security monitoring engine.",
+        "author_name": "Open Information Security Foundation (OISF)",
+        "publication_year": 2023,
+        "download_link": "https://suricata.readthedocs.io/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Next-Generation Intrusion Prevention Systems (NGIPS)",
+        "description": "SANS whitepaper detailing the evolution, evaluation, and deployment of active inline prevention systems.",
+        "author_name": "SANS Institute",
+        "publication_year": 2018,
+        "download_link": "https://www.sans.org/white-papers/36557/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "WAF (Web Application Firewall)",
+    "books": [
+      {
+        "book_name": "OWASP ModSecurity Core Rule Set (CRS) Documentation",
+        "description": "The definitive guide to implementing the most widely used WAF rule set to defend against the OWASP Top 10.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2023,
+        "download_link": "https://coreruleset.org/docs/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "NIST SP 800-95: Guide to Secure Web Services",
+        "description": "Federal guidelines including architectural recommendations for deploying web application firewalls.",
+        "author_name": "NIST",
+        "publication_year": 2007,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-95/final",
+        "ratings": 4.5
+      }
+    ]
+  },
+  {
+    "domain": "Network Traffic Analysis",
+    "books": [
+      {
+        "book_name": "Zeek Network Security Monitor Manual",
+        "description": "Official documentation for extracting deep application-layer metadata for traffic analysis.",
+        "author_name": "Zeek Project",
+        "publication_year": 2023,
+        "download_link": "https://docs.zeek.org/en/master/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Finding Hidden Threats by Decrypting Network Traffic",
+        "description": "SANS whitepaper on the methodologies of inspecting encrypted network flows for anomalies.",
+        "author_name": "SANS Institute",
+        "publication_year": 2020,
+        "download_link": "https://www.sans.org/white-papers/39715/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Packet Analysis",
+    "books": [
+      {
+        "book_name": "Wireshark User's Guide",
+        "description": "The mandatory foundational text for any SOC analyst learning to read raw packet captures (PCAP).",
+        "author_name": "Wireshark Foundation",
+        "publication_year": 2023,
+        "download_link": "https://www.wireshark.org/docs/wsug_html_chunked/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "TCP/IP and tcpdump Pocket Reference Guide",
+        "description": "Essential quick-reference cheat sheet for filtering and analyzing packets via the command line.",
+        "author_name": "SANS Institute",
+        "publication_year": 2022,
+        "download_link": "https://www.sans.org/posters/tcp-ip-and-tcpdump/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Security Automation",
+    "books": [
+      {
+        "book_name": "Red Hat Ansible for Security Automation",
+        "description": "Open-source guides on automating firewall configurations, IDS deployments, and SIEM integrations.",
+        "author_name": "Red Hat",
+        "publication_year": 2022,
+        "download_link": "https://www.redhat.com/en/technologies/management/ansible/security-automation",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Automating Security Operations Center (SOC) Workflows",
+        "description": "Whitepaper on bridging the gap between alert generation and automated playbook execution.",
+        "author_name": "Swimlane",
+        "publication_year": 2021,
+        "download_link": "https://swimlane.com/resources/whitepapers/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Security Scripting",
+    "books": [
+      {
+        "book_name": "HackTricks: Scripting and Automation",
+        "description": "Open-source wiki detailing how to use Bash and Python for offensive and defensive security scripting.",
+        "author_name": "Carlos Polop",
+        "publication_year": 2023,
+        "download_link": "https://book.hacktricks.xyz/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Python for Cybersecurity (Open Source Repository)",
+        "description": "A curated collection of Python scripts and notebooks for parsing logs and automating OSINT.",
+        "author_name": "Various Contributors (GitHub)",
+        "publication_year": 2023,
+        "download_link": "https://github.com/topics/python-cybersecurity",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "AI in Cybersecurity",
+    "books": [
+      {
+        "book_name": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF)",
+        "description": "A comprehensive guideline to better manage risks to individuals, organizations, and society associated with artificial intelligence.",
+        "author_name": "NIST",
+        "publication_year": 2023,
+        "download_link": "https://www.nist.gov/itl/ai-risk-management-framework",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Securing Machine Learning Algorithms",
+        "description": "Guidelines and taxonomy for securing AI systems and understanding their threat landscape.",
+        "author_name": "ENISA",
+        "publication_year": 2021,
+        "download_link": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Machine Learning Security",
+    "books": [
+      {
+        "book_name": "Failure Modes in Machine Learning",
+        "description": "Detailed document highlighting how ML systems fail maliciously and accidentally.",
+        "author_name": "Microsoft Security",
+        "publication_year": 2019,
+        "download_link": "https://docs.microsoft.com/en-us/security/engineering/failure-modes-in-machine-learning",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Machine Learning Threat Modeling",
+        "description": "Framework and cheat sheets for identifying security threats specific to machine learning models.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2023,
+        "download_link": "https://owasp.org/www-project-machine-learning-security-top-10/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Adversarial AI Security",
+    "books": [
+      {
+        "book_name": "MITRE ATLAS (Adversarial Threat Landscape for AI Systems)",
+        "description": "A globally accessible knowledge base of adversary tactics and techniques against AI systems.",
+        "author_name": "MITRE Corporation",
+        "publication_year": 2023,
+        "download_link": "https://atlas.mitre.org/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "NIST IR 8269: A Taxonomy and Terminology of Adversarial Machine Learning",
+        "description": "Standardized terminology and concepts for securing ML systems against adversarial attacks.",
+        "author_name": "NIST",
+        "publication_year": 2019,
+        "download_link": "https://csrc.nist.gov/publications/detail/nistir/8269/draft",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Blockchain Security",
+    "books": [
+      {
+        "book_name": "NIST IR 8202: Blockchain Technology Overview",
+        "description": "High-level technical overview of blockchain architectures and their inherent security models.",
+        "author_name": "NIST",
+        "publication_year": 2018,
+        "download_link": "https://csrc.nist.gov/publications/detail/nistir/8202/final",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Distributed Ledger Technology & Cybersecurity",
+        "description": "Security risks, challenges, and best practices associated with blockchain deployments.",
+        "author_name": "ENISA",
+        "publication_year": 2017,
+        "download_link": "https://www.enisa.europa.eu/publications/distributed-ledger-technology-and-cybersecurity",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Cryptocurrency Security",
+    "books": [
+      {
+        "book_name": "Cryptocurrency Security Standard (CCSS)",
+        "description": "Open standard mapping security requirements for systems utilizing cryptocurrencies.",
+        "author_name": "CryptoCurrency Certification Consortium (C4)",
+        "publication_year": 2020,
+        "download_link": "https://cryptoconsortium.org/standards/",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Securing Digital Currency Operations",
+        "description": "Whitepapers on the operational security needed to safeguard hot and cold wallets.",
+        "author_name": "SANS Institute",
+        "publication_year": 2021,
+        "download_link": "https://www.sans.org/white-papers/",
+        "ratings": 4.5
+      }
+    ]
+  },
+  {
+    "domain": "Smart Contract Security",
+    "books": [
+      {
+        "book_name": "Ethereum Smart Contract Best Practices",
+        "description": "Comprehensive open-source guide detailing known attacks and secure coding patterns for Solidity.",
+        "author_name": "Consensys",
+        "publication_year": 2023,
+        "download_link": "https://consensys.github.io/smart-contract-best-practices/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "SWC Registry (Smart Contract Weakness Classification)",
+        "description": "Library of smart contract vulnerabilities with examples and remediation strategies.",
+        "author_name": "SWC Community",
+        "publication_year": 2022,
+        "download_link": "https://swcregistry.io/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Digital Identity Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-63-3: Digital Identity Guidelines",
+        "description": "The authoritative global standard for identity proofing, authentication, and lifecycle management.",
+        "author_name": "NIST",
+        "publication_year": 2017,
+        "download_link": "https://pages.nist.gov/800-63-3/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Identity and Access Management for Cloud Computing",
+        "description": "Actionable guidance for securing digital identities across distributed cloud environments.",
+        "author_name": "Cloud Security Alliance (CSA)",
+        "publication_year": 2020,
+        "download_link": "https://cloudsecurityalliance.org/research/guidance/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Physical Security Integration",
+    "books": [
+      {
+        "book_name": "Cybersecurity and Physical Security Convergence Guide",
+        "description": "Strategic framework for integrating logical access with physical facility security operations.",
+        "author_name": "CISA",
+        "publication_year": 2021,
+        "download_link": "https://www.cisa.gov/cybersecurity-and-physical-security-convergence",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Facility Security Design Principles",
+        "description": "Guidelines on mitigating cyber-physical risks within critical infrastructure facilities.",
+        "author_name": "FEMA / DHS",
+        "publication_year": 2018,
+        "download_link": "https://www.fema.gov/emergency-managers/risk-management",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Surveillance Security",
+    "books": [
+      {
+        "book_name": "Securing Video Surveillance Systems",
+        "description": "Best practices for hardening IP cameras and securing network video recorders (NVRs).",
+        "author_name": "CISA",
+        "publication_year": 2022,
+        "download_link": "https://www.cisa.gov/resources-tools/resources/securing-video-surveillance-systems",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "OWASP Internet of Things (IoT) Security Guidance",
+        "description": "Applies IoT threat modeling directly to network-connected surveillance devices.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2020,
+        "download_link": "https://owasp.org/www-project-internet-of-things/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Access Control Systems",
+    "books": [
+      {
+        "book_name": "NIST SP 800-116 Rev. 1: Guidelines for the Use of PIV Credentials in Facility Access",
+        "description": "Technical requirements for integrating cryptographic identity cards into physical access control systems.",
+        "author_name": "NIST",
+        "publication_year": 2018,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-116/rev-1/final",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "NIST SP 800-162: Guide to Attribute Based Access Control (ABAC)",
+        "description": "Detailed concepts and deployment considerations for highly granular access control mechanisms.",
+        "author_name": "NIST",
+        "publication_year": 2014,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-162/final",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Cyber Law",
+    "books": [
+      {
+        "book_name": "General Data Protection Regulation (GDPR) Legal Text",
+        "description": "The complete, unabridged official legal text outlining European data protection and privacy laws.",
+        "author_name": "European Union",
+        "publication_year": 2016,
+        "download_link": "https://gdpr-info.eu/",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Digital Personal Data Protection Act (DPDPA)",
+        "description": "India's official legislative framework governing the processing of digital personal data.",
+        "author_name": "Government of India",
+        "publication_year": 2023,
+        "download_link": "https://www.meity.gov.in/data-protection-framework",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Cyber Ethics",
+    "books": [
+      {
+        "book_name": "Ethics in Cybersecurity",
+        "description": "Comprehensive guidelines and case studies on ethical decision-making in security operations.",
+        "author_name": "ENISA",
+        "publication_year": 2022,
+        "download_link": "https://www.enisa.europa.eu/publications/ethics-in-cybersecurity",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "The Menlo Report",
+        "description": "Ethical principles and guidelines for information and communication technology research.",
+        "author_name": "U.S. Department of Homeland Security",
+        "publication_year": 2012,
+        "download_link": "https://www.caida.org/publications/papers/2012/menlo_report_actual_formatted/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Digital Rights Management (DRM)",
+    "books": [
+      {
+        "book_name": "Encrypted Media Extensions (EME) Specification",
+        "description": "The official W3C web standard detailing how browsers interact with DRM systems.",
+        "author_name": "W3C",
+        "publication_year": 2017,
+        "download_link": "https://www.w3.org/TR/encrypted-media/",
+        "ratings": 4.5
+      },
+      {
+        "book_name": "DRM and Security Whitepapers",
+        "description": "Technical and policy analysis of the vulnerabilities and implications of DRM implementations.",
+        "author_name": "Electronic Frontier Foundation (EFF)",
+        "publication_year": 2021,
+        "download_link": "https://www.eff.org/issues/drm",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Insider Threat Management",
+    "books": [
+      {
+        "book_name": "Common Sense Guide to Mitigating Insider Threats",
+        "description": "The definitive guide featuring best practices to detect and prevent insider attacks.",
+        "author_name": "CERT / Software Engineering Institute (SEI)",
+        "publication_year": 2018,
+        "download_link": "https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=540714",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "CISA Insider Threat Mitigation Guide",
+        "description": "Framework for establishing an insider threat prevention and response program.",
+        "author_name": "CISA",
+        "publication_year": 2020,
+        "download_link": "https://www.cisa.gov/resources-tools/resources/insider-threat-mitigation-guide",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Security Awareness Training",
+    "books": [
+      {
+        "book_name": "NIST SP 800-50: Building an Information Technology Security Awareness and Training Program",
+        "description": "Guidelines for developing, implementing, and maintaining a robust security awareness program.",
+        "author_name": "NIST",
+        "publication_year": 2003,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-50/final",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "SANS Security Awareness Maturity Model",
+        "description": "A strategic framework to measure and improve organizational security culture.",
+        "author_name": "SANS Institute",
+        "publication_year": 2022,
+        "download_link": "https://www.sans.org/security-awareness-training/reports/security-awareness-report",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Social Engineering Defense",
+    "books": [
+      {
+        "book_name": "Social Engineering: Security Awareness Guidance",
+        "description": "Government guides on recognizing and defending against manipulation and pretexting.",
+        "author_name": "CISA",
+        "publication_year": 2021,
+        "download_link": "https://www.cisa.gov/uscert/ncas/tips/ST04-014",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "The SEBOK (Social Engineering Body of Knowledge)",
+        "description": "A comprehensive open framework for understanding human-based attack vectors and defenses.",
+        "author_name": "Social-Engineer Org",
+        "publication_year": 2022,
+        "download_link": "https://www.social-engineer.org/framework/general-discussion/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Phishing Simulation",
+    "books": [
+      {
+        "book_name": "The Phish Scale: NIST Categorization",
+        "description": "Methodology for rating the difficulty of phishing emails to improve awareness training metrics.",
+        "author_name": "NIST",
+        "publication_year": 2020,
+        "download_link": "https://www.nist.gov/news-events/news/2020/09/phish-scale-nist-developed-method-helps-it-staff-see-why-users-click",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "GoPhish User Guide",
+        "description": "Official documentation for configuring and running campaigns with the leading open-source phishing framework.",
+        "author_name": "GoPhish Community",
+        "publication_year": 2023,
+        "download_link": "https://docs.getgophish.com/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Deception Technology",
+    "books": [
+      {
+        "book_name": "MITRE Engage",
+        "description": "A framework for planning and discussing adversary engagement, deception, and denial operations.",
+        "author_name": "MITRE Corporation",
+        "publication_year": 2022,
+        "download_link": "https://engage.mitre.org/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Active Defense Harbinger Distribution (ADHD) Documentation",
+        "description": "Guides and tools for implementing active defense and deception mechanisms on networks.",
+        "author_name": "Black Hills Information Security",
+        "publication_year": 2021,
+        "download_link": "https://www.blackhillsinfosec.com/projects/adhd/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Honeypots",
+    "books": [
+      {
+        "book_name": "T-Pot: The All In One Honeypot Platform",
+        "description": "Extensive documentation on deploying a multi-honeypot platform via Docker.",
+        "author_name": "T-Mobile / Telekom Security",
+        "publication_year": 2023,
+        "download_link": "https://github.com/telekom-security/tpotce",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Modern Honey Network (MHN) Guide",
+        "description": "Open-source guide for deploying and managing a distributed network of honeypots.",
+        "author_name": "ThreatStream / MHN Community",
+        "publication_year": 2020,
+        "download_link": "https://github.com/pwnlandia/mhn",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Cyber Warfare",
+    "books": [
+      {
+        "book_name": "Tallinn Manual 2.0 on the International Law Applicable to Cyber Operations (Drafts/Overviews)",
+        "description": "Open-access summaries and analyses of the defining academic study on cyber warfare law.",
+        "author_name": "NATO CCDCOE",
+        "publication_year": 2017,
+        "download_link": "https://ccdcoe.org/research/tallinn-manual/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Cyber Defense in the Age of AI, Smart Societies and Augmented Humanity",
+        "description": "Advanced research papers mapping the future landscape of nation-state cyber conflict.",
+        "author_name": "NATO CCDCOE",
+        "publication_year": 2020,
+        "download_link": "https://ccdcoe.org/library/publications/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Cyber Espionage",
+    "books": [
+      {
+        "book_name": "APT1: Exposing One of China's Cyber Espionage Units",
+        "description": "The landmark Mandiant report that publicly detailed the tactics, techniques, and procedures of a state-sponsored espionage group.",
+        "author_name": "Mandiant",
+        "publication_year": 2013,
+        "download_link": "https://www.mandiant.com/resources/apt1-exposing-one-of-chinas-cyber-espionage-units",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "ENISA Threat Landscape: State-Sponsored Actors",
+        "description": "Comprehensive analysis of advanced persistent threats (APTs) and modern cyber espionage campaigns.",
+        "author_name": "ENISA",
+        "publication_year": 2022,
+        "download_link": "https://www.enisa.europa.eu/publications/enisa-threat-landscape-2022",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "National Security Cyber Defense",
+    "books": [
+      {
+        "book_name": "Department of Defense Cyber Strategy",
+        "description": "The unclassified strategic framework detailing how the US military defends national networks and critical infrastructure.",
+        "author_name": "U.S. Department of Defense",
+        "publication_year": 2023,
+        "download_link": "https://www.defense.gov/News/Releases/Release/Article/3523456/department-of-defense-releases-2023-cyber-strategy-summary/",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "National Cyber Security Strategy Guidelines",
+        "description": "A comprehensive guide for nations to design, implement, and evaluate defensive cyber strategies.",
+        "author_name": "NATO CCDCOE",
+        "publication_year": 2013,
+        "download_link": "https://ccdcoe.org/library/publications/national-cyber-security-strategy-guidelines/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Critical Infrastructure Protection",
+    "books": [
+      {
+        "book_name": "Framework for Improving Critical Infrastructure Cybersecurity",
+        "description": "The core NIST framework utilized globally to protect vital infrastructure from cyber threats.",
+        "author_name": "NIST",
+        "publication_year": 2018,
+        "download_link": "https://www.nist.gov/cyberframework/framework",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "National Infrastructure Protection Plan (NIPP)",
+        "description": "The official CISA guide for coordinating risk management and securing critical infrastructure sectors.",
+        "author_name": "CISA",
+        "publication_year": 2013,
+        "download_link": "https://www.cisa.gov/national-infrastructure-protection-plan",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Supply Chain Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-161 Rev. 1: Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations",
+        "description": "Strategic guidance on identifying, assessing, and mitigating cyber supply chain risks.",
+        "author_name": "NIST",
+        "publication_year": 2022,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-161/rev-1/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Defending Against Software Supply Chain Attacks",
+        "description": "Joint CISA and NIST guidance detailing practical steps to secure software procurement and deployment lifecycles.",
+        "author_name": "CISA",
+        "publication_year": 2021,
+        "download_link": "https://www.cisa.gov/sites/default/files/publications/defending_against_software_supply_chain_attacks_508_1.pdf",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Hardware Security",
+    "books": [
+      {
+        "book_name": "NIST IR 8320: Hardware-Enabled Security",
+        "description": "Guidelines for establishing trusted execution environments and utilizing hardware roots of trust.",
+        "author_name": "NIST",
+        "publication_year": 2022,
+        "download_link": "https://csrc.nist.gov/publications/detail/nistir/8320/final",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Hardware Security: A Hands-on Learning Approach (Open Resources)",
+        "description": "Academic materials covering physical security vulnerabilities, side channels, and hardware trojans.",
+        "author_name": "Swarup Bhunia",
+        "publication_year": 2018,
+        "download_link": "https://www.hardwaresecurity.org/",
+        "ratings": 4.5
+      }
+    ]
+  },
+  {
+    "domain": "Firmware Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-193: Platform Firmware Resiliency Guidelines",
+        "description": "Technical standards detailing how to ensure the integrity, protection, and recovery of system firmware.",
+        "author_name": "NIST",
+        "publication_year": 2018,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-193/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "OWASP Firmware Security Testing Methodology",
+        "description": "A comprehensive, step-by-step guide for extracting, analyzing, and finding vulnerabilities in embedded firmware.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2021,
+        "download_link": "https://scriptingxss.gitbook.io/firmware-security-testing-methodology/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Chip Security",
+    "books": [
+      {
+        "book_name": "Common Weakness Enumeration (CWE) Hardware Design",
+        "description": "The official MITRE taxonomy and technical definitions for vulnerabilities occurring at the microarchitecture and chip level.",
+        "author_name": "MITRE Corporation",
+        "publication_year": 2023,
+        "download_link": "https://cwe.mitre.org/data/definitions/1194.html",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Securing the Microelectronics Supply Chain",
+        "description": "Government guidelines on preventing counterfeiting and securing the fabrication process of silicon chips.",
+        "author_name": "CISA / DoD",
+        "publication_year": 2022,
+        "download_link": "https://www.cisa.gov/resources-tools/resources/securing-microelectronics-supply-chain",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Side Channel Attacks",
+    "books": [
+      {
+        "book_name": "Differential Power Analysis",
+        "description": "The foundational academic paper introducing power-based side-channel analysis against cryptographic devices.",
+        "author_name": "Paul Kocher",
+        "publication_year": 1999,
+        "download_link": "https://www.rambus.com/differential-power-analysis/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Introduction to Side Channel Attacks",
+        "description": "Academic primer detailing acoustic, power, timing, and electromagnetic leakages in secure systems.",
+        "author_name": "Various Authors (Open Access / Cryptology ePrint)",
+        "publication_year": 2020,
+        "download_link": "https://eprint.iacr.org/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Quantum Cryptography",
+    "books": [
+      {
+        "book_name": "Quantum-Safe Cryptography and Security",
+        "description": "Comprehensive whitepaper detailing the physics, infrastructure, and deployment of quantum key distribution (QKD).",
+        "author_name": "ETSI",
+        "publication_year": 2015,
+        "download_link": "https://www.etsi.org/technologies/quantum-safe-cryptography",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "NIST Post-Quantum Cryptography Standardization Report",
+        "description": "Detailed mathematical analysis of algorithms designed to withstand attacks from quantum computers.",
+        "author_name": "NIST",
+        "publication_year": 2022,
+        "download_link": "https://csrc.nist.gov/publications/detail/nistir/8413/final",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Post-Quantum Security",
+    "books": [
+      {
+        "book_name": "Preparing for Post-Quantum Cryptography",
+        "description": "Actionable steps for organizations to build cryptographic inventories and prepare for the PQC transition.",
+        "author_name": "CISA",
+        "publication_year": 2022,
+        "download_link": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-cryptography",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Post-Quantum Cryptography: Integration Study",
+        "description": "European guidelines detailing the operational challenges of integrating PQC into existing internet protocols.",
+        "author_name": "ENISA",
+        "publication_year": 2021,
+        "download_link": "https://www.enisa.europa.eu/publications/post-quantum-cryptography-integration-study",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Secure Boot",
+    "books": [
+      {
+        "book_name": "NIST SP 800-147: BIOS Protection Guidelines",
+        "description": "Security guidelines for preventing the unauthorized modification of BIOS firmware on PC client systems.",
+        "author_name": "NIST",
+        "publication_year": 2011,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-147/final",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Windows Secure Boot Key Creation and Management Guidance",
+        "description": "Technical documentation on deploying and managing secure boot keys in enterprise environments.",
+        "author_name": "Microsoft",
+        "publication_year": 2020,
+        "download_link": "https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-secure-boot-key-creation-and-management-guidance",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Trusted Platform Module (TPM)",
+    "books": [
+      {
+        "book_name": "A Practical Guide to TPM 2.0: Using the Trusted Platform Module",
+        "description": "A comprehensive, open-access book explaining the architecture, usage, and programming of TPM 2.0.",
+        "author_name": "Will Arthur, David Challener",
+        "publication_year": 2015,
+        "download_link": "https://link.springer.com/book/10.1007/978-1-4302-6584-9",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "TCG TPM 2.0 Library Specification",
+        "description": "The official standard and technical specification for TPM implementations.",
+        "author_name": "Trusted Computing Group (TCG)",
+        "publication_year": 2019,
+        "download_link": "https://trustedcomputinggroup.org/resource/tpm-library-specification/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Virtualization Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-125: Guide to Security for Full Virtualization Technologies",
+        "description": "Recommendations for securing full virtualization technologies in server and desktop environments.",
+        "author_name": "NIST",
+        "publication_year": 2011,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-125/final",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "CIS VMware ESXi Benchmark",
+        "description": "Industry-consensus security configuration guidelines for VMware's virtualization platform.",
+        "author_name": "Center for Internet Security (CIS)",
+        "publication_year": 2023,
+        "download_link": "https://www.cisecurity.org/benchmark/vmware",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Hypervisor Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-125A Rev. 1: Security Recommendations for Server-based Hypervisor Platforms",
+        "description": "Specific architectural and configuration guidelines to secure the hypervisor layer.",
+        "author_name": "NIST",
+        "publication_year": 2018,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-125a/rev-1/final",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "BSI Security Configuration of Hypervisors",
+        "description": "In-depth European guidelines on hardening hypervisors against escape attacks.",
+        "author_name": "Federal Office for Information Security (BSI Germany)",
+        "publication_year": 2021,
+        "download_link": "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Virtualisierung/virtualisierung_node.html",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Remote Work Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-46 Rev. 2: Guide to Enterprise Telework, Remote Access, and BYOD Security",
+        "description": "Best practices for securing enterprise data when accessed via remote or personal devices.",
+        "author_name": "NIST",
+        "publication_year": 2016,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-46/rev-2/final",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "CISA Telework Guidance and Best Practices",
+        "description": "Actionable security recommendations for IT administrators supporting a remote workforce.",
+        "author_name": "CISA",
+        "publication_year": 2020,
+        "download_link": "https://www.cisa.gov/telework",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "VPN Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-77 Rev. 1: Guide to IPsec VPNs",
+        "description": "Practical and technical guidelines for configuring and securing IPsec Virtual Private Networks.",
+        "author_name": "NIST",
+        "publication_year": 2020,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-77/rev-1/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "NIST SP 800-113: Guide to SSL VPNs",
+        "description": "Architectural configurations and security assessments for SSL/TLS-based VPN deployments.",
+        "author_name": "NIST",
+        "publication_year": 2008,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-113/final",
+        "ratings": 4.5
+      }
+    ]
+  },
+  {
+    "domain": "Zero-Day Exploit Research",
+    "books": [
+      {
+        "book_name": "Google Project Zero Research Blog & Issue Tracker",
+        "description": "The world's leading open repository of zero-day vulnerability research, methodologies, and disclosures.",
+        "author_name": "Google Project Zero",
+        "publication_year": 2023,
+        "download_link": "https://googleprojectzero.blogspot.com/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Exploit Database (OffSec) Whitepapers",
+        "description": "A curated collection of research papers detailing novel exploitation techniques and zero-day discoveries.",
+        "author_name": "Offensive Security",
+        "publication_year": 2023,
+        "download_link": "https://www.exploit-db.com/papers",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Exploit Mitigation",
+    "books": [
+      {
+        "book_name": "Mitigating Software Vulnerabilities",
+        "description": "Microsoft's deep-dive documentation on OS-level exploit mitigations like ASLR, DEP, and CFG.",
+        "author_name": "Microsoft Security",
+        "publication_year": 2022,
+        "download_link": "https://learn.microsoft.com/en-us/windows/security/threat-protection/overview-of-threat-mitigations-in-windows-10",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Bypassing Exploit Mitigations (Tutorial Series)",
+        "description": "Highly advanced, open tutorials on how mitigations work and the methods researchers use to bypass them.",
+        "author_name": "Corelan Team",
+        "publication_year": 2019,
+        "download_link": "https://www.corelan.be/",
+        "ratings": 4.9
+      }
+    ]
+  },
+  {
+    "domain": "Patch Management",
+    "books": [
+      {
+        "book_name": "NIST SP 800-40 Rev. 4: Guide to Enterprise Patch Management Planning",
+        "description": "Strategic framework for establishing an efficient and secure patch management lifecycle.",
+        "author_name": "NIST",
+        "publication_year": 2022,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-40/rev-4/final",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "CISA Known Exploited Vulnerabilities (KEV) Catalog Guidance",
+        "description": "Directives on prioritizing patch management based on active, real-world exploitation data.",
+        "author_name": "CISA",
+        "publication_year": 2023,
+        "download_link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Configuration Management Security",
+    "books": [
+      {
+        "book_name": "NIST SP 800-128: Guide for Security-Focused Configuration Management of Information Systems",
+        "description": "Detailed methodologies for ensuring systems maintain a secure baseline configuration over time.",
+        "author_name": "NIST",
+        "publication_year": 2011,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-128/final",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "CIS Controls v8 - Control 4: Secure Configuration of Enterprise Assets and Software",
+        "description": "Actionable safeguards for establishing and maintaining secure configurations across all network devices.",
+        "author_name": "Center for Internet Security (CIS)",
+        "publication_year": 2021,
+        "download_link": "https://www.cisecurity.org/controls/secure-configuration-of-enterprise-assets-and-software",
+        "ratings": 4.9
+      }
+    ]
+  },
+  {
+    "domain": "Asset Management Security",
+    "books": [
+      {
+        "book_name": "NIST SP 1800-5: IT Asset Management",
+        "description": "Comprehensive guidelines for tracking, managing, and securing enterprise IT assets and financial data.",
+        "author_name": "NIST / NCCoE",
+        "publication_year": 2018,
+        "download_link": "https://www.nccoe.nist.gov/projects/building-blocks/it-asset-management",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "CIS Controls v8 - Control 1: Inventory and Control of Enterprise Assets",
+        "description": "The foundational security control detailing how to actively manage all hardware devices on the network.",
+        "author_name": "Center for Internet Security (CIS)",
+        "publication_year": 2021,
+        "download_link": "https://www.cisecurity.org/controls/inventory-and-control-of-enterprise-assets",
+        "ratings": 4.9
+      }
+    ]
+  },
+  {
+    "domain": "Security Metrics and Reporting",
+    "books": [
+      {
+        "book_name": "NIST SP 800-55 Rev. 1: Performance Measurement for Information Security",
+        "description": "Guidelines on how to develop, select, and implement effective cybersecurity metrics.",
+        "author_name": "NIST",
+        "publication_year": 2008,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-55/rev-1/final",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Security Metrics: A Comprehensive Guide",
+        "description": "SANS reading room whitepaper on building actionable, executive-level security dashboards.",
+        "author_name": "SANS Institute",
+        "publication_year": 2019,
+        "download_link": "https://www.sans.org/white-papers/39000/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Security Policy Management",
+    "books": [
+      {
+        "book_name": "SANS Information Security Policy Templates",
+        "description": "A comprehensive, open-source repository of pre-written security policies for enterprise use.",
+        "author_name": "SANS Institute",
+        "publication_year": 2023,
+        "download_link": "https://www.sans.org/information-security-policy/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "NIST SP 800-14: Generally Accepted Principles and Practices for Securing Information Technology Systems",
+        "description": "Foundational guide detailing the baseline policies required to secure IT environments.",
+        "author_name": "NIST",
+        "publication_year": 1996,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-14/final",
+        "ratings": 4.5
+      }
+    ]
+  },
+  {
+    "domain": "Security Governance",
+    "books": [
+      {
+        "book_name": "COBIT 2019 Framework: Governance and Management Objectives",
+        "description": "The premier framework for aligning IT security goals with overarching enterprise business objectives.",
+        "author_name": "ISACA",
+        "publication_year": 2018,
+        "download_link": "https://www.isaca.org/resources/cobit",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "ENISA Corporate Governance of IT",
+        "description": "European guidelines detailing the responsibilities of the board of directors in cybersecurity governance.",
+        "author_name": "ENISA",
+        "publication_year": 2018,
+        "download_link": "https://www.enisa.europa.eu/publications/corporate-governance-of-it",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Ethical Hacking",
+    "books": [
+      {
+        "book_name": "HackTricks",
+        "description": "An exhaustive, open-source wiki covering all phases of ethical hacking, privilege escalation, and CTF techniques.",
+        "author_name": "Carlos Polop",
+        "publication_year": 2023,
+        "download_link": "https://book.hacktricks.xyz/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Nmap Network Scanning",
+        "description": "The official guide to using the Nmap Security Scanner for network discovery and security auditing.",
+        "author_name": "Gordon Lyon",
+        "publication_year": 2008,
+        "download_link": "https://nmap.org/book/",
+        "ratings": 4.9
+      }
+    ]
+  },
+  {
+    "domain": "Offensive Security",
+    "books": [
+      {
+        "book_name": "Payloads All The Things",
+        "description": "The definitive open-source repository of payloads and bypasses for web application and network security assessments.",
+        "author_name": "Swissky",
+        "publication_year": 2023,
+        "download_link": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Red Team Infrastructure Wiki",
+        "description": "Technical guide on deploying robust, covert command and control (C2) infrastructure for offensive operations.",
+        "author_name": "Bluscreenofjeff",
+        "publication_year": 2021,
+        "download_link": "https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Defensive Security",
+    "books": [
+      {
+        "book_name": "MITRE D3FEND: A Knowledge Graph of Cybersecurity Countermeasures",
+        "description": "The standard framework detailing the exact defensive techniques required to counter specific offensive adversary behaviors.",
+        "author_name": "MITRE Corporation",
+        "publication_year": 2021,
+        "download_link": "https://d3fend.mitre.org/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "CISA Blue Team Defense Guidance",
+        "description": "Strategic and tactical instructions for network defenders securing critical systems against active threats.",
+        "author_name": "CISA",
+        "publication_year": 2022,
+        "download_link": "https://www.cisa.gov/resources-tools/services/blue-teaming",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Security Research",
+    "books": [
+      {
+        "book_name": "Google Project Zero Issue Tracker & Documentation",
+        "description": "The world's foremost open repository of deeply technical zero-day vulnerability research and exploit methodologies.",
+        "author_name": "Google Project Zero",
+        "publication_year": 2023,
+        "download_link": "https://googleprojectzero.blogspot.com/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "Phrack Magazine Archives",
+        "description": "The longest-running hacker zine, serving as a historical and technical textbook for deep-system security research.",
+        "author_name": "Phrack Staff",
+        "publication_year": 2023,
+        "download_link": "http://phrack.org/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Security Consulting",
+    "books": [
+      {
+        "book_name": "Penetration Testing Execution Standard (PTES)",
+        "description": "Guidelines defining the baseline requirements, scoping, and reporting structures for professional security consultants.",
+        "author_name": "PTES Team",
+        "publication_year": 2014,
+        "download_link": "http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "OWASP Security Assessment Guide",
+        "description": "Documentation aiding consultants in structuring code reviews, threat modeling, and client deliverables.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2022,
+        "download_link": "https://owasp.org/www-project-web-security-testing-guide/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Cybersecurity Project Management",
+    "books": [
+      {
+        "book_name": "NIST SP 800-65: Integrating IT Security into the Capital Planning and Investment Control Process",
+        "description": "A guide for project managers on budgeting, planning, and executing security initiatives.",
+        "author_name": "NIST",
+        "publication_year": 2005,
+        "download_link": "https://csrc.nist.gov/publications/detail/sp/800-65/final",
+        "ratings": 4.6
+      },
+      {
+        "book_name": "Managing Cybersecurity Projects",
+        "description": "SANS whitepaper detailing methodologies for successfully delivering complex infrastructure security projects.",
+        "author_name": "SANS Institute",
+        "publication_year": 2020,
+        "download_link": "https://www.sans.org/white-papers/",
+        "ratings": 4.7
+      }
+    ]
+  },
+  {
+    "domain": "Security Product Development",
+    "books": [
+      {
+        "book_name": "Building Secure and Reliable Systems",
+        "description": "Google's authoritative guide on the design, development, and maintenance of secure software products.",
+        "author_name": "Heather Adkins, Betsy Beyer, et al.",
+        "publication_year": 2020,
+        "download_link": "https://sre.google/books/building-secure-and-reliable-systems/",
+        "ratings": 4.9
+      },
+      {
+        "book_name": "OWASP Software Assurance Maturity Model (SAMM)",
+        "description": "An open framework for formulating and implementing a strategy for software security across an organization.",
+        "author_name": "OWASP Foundation",
+        "publication_year": 2021,
+        "download_link": "https://owaspsamm.org/",
+        "ratings": 4.8
+      }
+    ]
+  },
+  {
+    "domain": "Security Sales Engineering",
+    "books": [
+      {
+        "book_name": "CISA Zero Trust Maturity Model",
+        "description": "Essential reading for sales engineers mapping technical product capabilities to enterprise Zero Trust requirements.",
+        "author_name": "CISA",
+        "publication_year": 2023,
+        "download_link": "https://www.cisa.gov/zero-trust-maturity-model",
+        "ratings": 4.7
+      },
+      {
+        "book_name": "Evaluating Security Products",
+        "description": "SANS guidelines on how organizations test security tools, crucial knowledge for engineers selling those solutions.",
+        "author_name": "SANS Institute",
+        "publication_year": 2019,
+        "download_link": "https://www.sans.org/white-papers/",
+        "ratings": 4.6
+      }
+    ]
+  },
+  {
+    "domain": "Security Support Engineering",
+    "books": [
+      {
+        "book_name": "Microsoft Security Operations Guide",
+        "description": "In-depth documentation for engineers supporting, configuring, and troubleshooting enterprise security environments.",
+        "author_name": "Microsoft Security",
+        "publication_year": 2023,
+        "download_link": "https://learn.microsoft.com/en-us/security/operations/security-operations",
+        "ratings": 4.8
+      },
+      {
+        "book_name": "Elastic Security Guide",
+        "description": "Comprehensive manual for support engineers maintaining SIEM infrastructure and resolving alert ingestion issues.",
+        "author_name": "Elastic",
+        "publication_year": 2023,
+        "download_link": "https://www.elastic.co/guide/en/security/current/index.html",
+        "ratings": 4.7
+      }
+    ]
+  }
+]
